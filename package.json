@@ -1,0 +1,19 @@
+{
+  "name": "reclaim-page",
+  "version": "1.0.0",
+  "description": "homepage for reclaim",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redilabxreclaim/reclaim-page.git"
+  },
+  "author": "REDI Lab x Reclaim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redilabxreclaim/reclaim-page/issues"
+  },
+  "homepage": "https://github.com/redilabxreclaim/reclaim-page#readme"
+}
