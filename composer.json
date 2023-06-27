@@ -1,6 +1,6 @@
 {
-  "name": "getkirby/starterkit",
-  "description": "Kirby Starterkit",
+  "name": "getkirby/plainkit",
+  "description": "Kirby Plainkit",
   "type": "project",
   "keywords": [
     "kirby",
@@ -23,7 +23,7 @@
   },
   "require": {
     "php": ">=8.0.0 <8.3.0",
-    "getkirby/cms": "^3.8"
+    "getkirby/cms": "^3.9"
   },
   "config": {
     "allow-plugins": {
