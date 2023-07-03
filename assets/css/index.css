@@ -6,20 +6,35 @@ ul {
 li {
   margin-right: 2rem;
 }
-h1 {
+.org h1 {
   font-family: "Barlow Condensed", sans-serif;
+  margin-bottom: 0;
 }
-p {
+.org p {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 400;
+  margin-top: 0;
+}
+.orgHome {
+  font-size: 12px;
+  color: #4c6b5f;
+  text-decoration: none;
+}
+.orgHome h1 {
+  font-family: "Barlow Condensed", sans-serif;
+  margin-bottom: 0;
+}
+.orgHome p {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  margin-top: 0;
+  font-size: 20px;
 }
 header {
   display: flex;
-
   align-items: center;
   justify-content: space-between;
   height: 80px;
-  padding: 1rem;
 }
 footer {
   background-color: gray;
@@ -27,15 +42,17 @@ footer {
   margin-top: 1rem;
   padding-top: 1rem;
 }
-.linkss li {
+.menu-links li {
   list-style: none;
+  margin-right: 0;
 }
-.linkss li a {
+.menu-links li a {
   display: flex;
   text-decoration: none;
   list-style: none;
   justify-content: center;
   color: #4c6b5f;
+  text-transform: uppercase;
 }
 .header-button {
   width: 40px;
@@ -48,22 +65,45 @@ footer {
 }
 .menu {
   width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  margin-top: 0%;
 }
 .logo-div {
   display: flex;
   flex-direction: column;
-
   width: 50%;
+  padding-left: 30px;
 }
 .org {
   font-size: 12px;
   color: #4c6b5f;
   text-decoration: none;
 }
-.org h1 {
-  margin-bottom: 0;
+.logo-image {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  opacity: 0.5;
+  z-index: -1;
+  margin-left: 30px;
 }
-
-.org p {
+.logo-div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 50%;
+}
+.logoText1 {
+  margin-left: 48px;
+  padding: 0;
+  margin-bottom: 0;
   margin-top: 0;
+}
+.logoText2 {
+  margin-left: 68px;
+  padding: 0;
 }
