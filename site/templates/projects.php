@@ -10,10 +10,17 @@
 </head>
 <body>
 <header class='header'>
-   <div class='logo-div'>
-      <a class='orgHome' href="<?= $site->url() ?>"><h1><?= $site->title() ?></h1></a>
-      <a class='orgHome' href="<?= $site->url() ?>"><p>ecofeminist alliance</p></a>
+<div class='logo-div'>
+    <a class='org' href="<?= $site->url() ?>">
+        <h1><?= $site->title() ?></h1>
+    </a>
+    <a class='org' href="<?= $site->url() ?>">
+        <p class='logoText1'>ecofeminist</p>
+        <p class='logoText2'>alliance</p>
+    </a>
+    <img src="<?= $page->image('reclaimLogo.png')->url() ?>" alt="Logo" class="logo-image">
 </div>
+
         <nav class='menu'>
             <ul class='menu-links'>
             <?php foreach ($site->children()->listed() as $item): ?>
