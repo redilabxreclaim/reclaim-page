@@ -24,5 +24,9 @@
     </header>      
 <h1><?= $page->title() ?></h1>
     <?= $page->text() ?>
+
+<?php snippet('section2') ?>
+
+
 </body>
 </html>
