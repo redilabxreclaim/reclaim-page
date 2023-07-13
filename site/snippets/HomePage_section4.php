@@ -14,8 +14,9 @@
         <p class='p2'>We are eight friends brought together by our shared vision of an ecofeminist world.
         </p>
 
-        <div>
-            <img src="<?= $page->image('reclaim_team.png')->url() ?>" alt="">
+        <div class="imgConainer">
+            <img class="teamImg" src="<?= url('HomePage_section4/reclaim_team.png') ?>" alt="">
+            <img class="ImgBG" src="<?= url('HomePage_section4/Circle.svg') ?>" alt="">
 
         </div>
 
