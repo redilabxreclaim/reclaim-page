@@ -17,8 +17,8 @@
 
 
 
-        <img class="HM_4_teamImg" src="<?= url('HomePage_section4/reclaim_team.png') ?>" alt="">
-        <img class="HM_4_ImgBG" src="<?= url('HomePage_section4/Circle.svg') ?>" alt="">
+        <img class="HM_4_teamImg" src="<?= url('home/HomePage_section4/reclaim_team.png') ?>" alt="">
+        <img class="HM_4_ImgBG" src="<?= url('home/HomePage_section4/Circle.svg') ?>" alt="">
 
         <button class="HM_4_learnBtn">LEARN MORE</button>
     </div>
