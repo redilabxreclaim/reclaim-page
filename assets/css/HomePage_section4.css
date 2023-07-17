@@ -9,7 +9,7 @@
 
 }
 
-.section4 {
+.HM_section4 {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -25,7 +25,7 @@
   overflow: hidden;
 }
 
-.content {
+.HM_4_content {
   margin: 0;
   padding: 0;
   position: relative;
@@ -38,7 +38,7 @@
   height: 100%;
   /* top: 200px; */
 }
-.p1 {
+.HM_4_p1 {
   margin: 0;
   padding: 0;
   position: absolute;
@@ -52,7 +52,7 @@
   color: var(--meetColor);
 }
 
-.p2 {
+.HM_4_p2 {
     margin: 0;
     padding: 0;
     position: absolute;
@@ -68,7 +68,7 @@
 
 
 
-.teamImg {
+.HM_4_teamImg {
   position: absolute;
 
   width: 932px;
@@ -76,7 +76,7 @@
   top: 302.6px;
   z-index: 2;
 }
-.ImgBG {
+.HM_4_ImgBG {
   position: absolute;
   width: 743.05px;
   height: 784.28px;
@@ -84,7 +84,7 @@
   /* z-index: 100; */
 }
 
-.learnBtn {
+.HM_4_learnBtn {
   position: absolute;
   width: 378px;
   height: 95px;
@@ -100,13 +100,13 @@
   z-index: 3;
 }
 
-.learnBtn:hover {
+.HM_4_learnBtn:hover {
   background-color: var(--hover);
   border-color: var(--hover);
   color: var(--sec2FontColor);
 }
 
-.learnBtn:active {
+.HM_4_learnBtn:active {
   background-color: var(--press);
   border-color: var(--press);
   color: var(--sec2FontColor);
