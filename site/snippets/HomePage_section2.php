@@ -8,7 +8,7 @@
     <div class="video-background">
 
         <video autoplay loop muted>
-            <source src="<?= url('media/Festival.mp4') ?>" type="video/mp4">
+            <source src="<?= url('home/media/Festival.mp4') ?>" type="video/mp4">
         </video>
 
 
