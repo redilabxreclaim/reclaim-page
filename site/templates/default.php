@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $site->title() ?></title>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Barlow:wght@700&family=Overpass:wght@100&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <?= css('../assets/css/index.css') ?>
 </head>
 <body>
 <header class='header'>
    <div class='logo-div'>
       <a class='orgHome' href="<?= $site->url() ?>"><h1><?= $site->title() ?></h1></a>
-      <a class='orgHome' href="<?= $site->url() ?>"><p>ecofeminist alliance</p></a>
+      <a class='orgHome' href="<?= $site->url() ?>"><p>Ecofeminist Alliance</p></a>
 </div>
         <nav class='menu'>
             <ul class='menu-links'>

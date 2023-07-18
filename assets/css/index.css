@@ -6,41 +6,46 @@ ul {
 li {
   margin-right: 2rem;
 }
-.org h1 {
-  font-family: "Barlow Condensed", sans-serif;
-  margin-bottom: 0;
-}
-.org p {
-  font-family: "Barlow Condensed", sans-serif;
-  font-weight: 400;
-  margin-top: 0;
-}
 .orgHome {
   font-size: 12px;
   color: #4c6b5f;
   text-decoration: none;
 }
 .orgHome h1 {
-  font-family: "Barlow Condensed", sans-serif;
+  color: #4c6b5f;
+  font-family: "Barlow", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 111.5%; /* 44.6px */
+  letter-spacing: -0.4px;
   margin-bottom: 0;
 }
 .orgHome p {
-  font-family: "Barlow Condensed", sans-serif;
+  color: #4c6b5f;
+  font-family: "Barlow", sans-serif;
+  font-size: 36px;
+  font-style: normal;
   font-weight: 400;
+  line-height: 111.5%;
+  letter-spacing: -0.9px;
   margin-top: 0;
-  font-size: 20px;
 }
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 80px;
+  padding-top: 24px;
 }
 footer {
   background-color: gray;
   height: 100px;
   margin-top: 1rem;
   padding-top: 1rem;
+}
+.menu-links {
+  margin-right: 32px;
 }
 .menu-links li {
   list-style: none;
@@ -53,15 +58,18 @@ footer {
   justify-content: center;
   color: #4c6b5f;
   text-transform: uppercase;
+  font-family: "Barlow Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 .header-button {
-  width: 40px;
-  height: 19px;
-  padding: 10px 20px;
+  display: flex;
+  padding: 8px 24px;
+  align-items: flex-start;
   border-radius: 100px;
   border: 4px solid #4c6b5f;
-  margin: 10px;
-  background-color: transparent;
+  margin-right: 16px;
 }
 .menu {
   width: 50%;
@@ -74,20 +82,31 @@ footer {
   display: flex;
   flex-direction: column;
   width: 50%;
-  padding-left: 30px;
+  padding-left: 32px;
 }
 .org {
   font-size: 12px;
   color: #4c6b5f;
   text-decoration: none;
 }
+.org h1 {
+  font-family: "Barlow Condensed", sans-serif;
+  margin-bottom: 0;
+
+  font-size: 18px;
+}
+.org p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+  font-size: 12px;
+}
 .logo-image {
   position: absolute;
-  width: 30%;
+  width: 25%;
   height: auto;
   opacity: 0.5;
   z-index: -1;
-  margin-left: 30px;
 }
 .logo-div {
   position: relative;
@@ -98,12 +117,12 @@ footer {
   width: 50%;
 }
 .logoText1 {
-  margin-left: 48px;
+  margin-left: 15px;
   padding: 0;
   margin-bottom: 0;
   margin-top: 0;
 }
 .logoText2 {
-  margin-left: 68px;
+  margin-left: 38px;
   padding: 0;
 }
