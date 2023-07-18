@@ -12,15 +12,12 @@
 
 <body>
 
-    <header class='header'>
-        <div class='logo-div'>
-            <a class='orgHome' href="<?= $site->url() ?>">
-                <h1><?= $site->title() ?></h1>
-            </a>
-            <a class='orgHome' href="<?= $site->url() ?>">
-                <p>Ecofeminist Alliance</p>
-            </a>
-        </div>
+    
+<header class='header'>
+   <div class='logo-div'>
+      <a class='orgHome' href="<?= $site->url() ?>"><h1><?= $site->title() ?></h1></a>
+      <a class='orgHome' href="<?= $site->url() ?>"><p>Ecofeminist Alliance</p></a>
+    </div>
         <nav class='menu'>
             <ul class='menu-links'>
                 <?php foreach ($site->children()->listed() as $item): ?>
@@ -28,8 +25,9 @@
                 <?php endforeach ?>
             </ul>
         </nav>
-    </header>
 
+  </header>
+    
 
     <?php snippet('HomePage_section5') ?>
 
@@ -42,6 +40,9 @@
         </div>
         <button class="learn-more">LEARN MORE</button>
     </div>
+    </div>      
+    <?php snippet('HomePage_section4') ?>
+    <?php snippet('HomePage_section2') ?>
 
 
 </body>
