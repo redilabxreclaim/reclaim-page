@@ -11,15 +11,7 @@
 </head>
 
 <body>
-    <header class='header'>
-        <div class='logo-div'>
-            <a class='orgHome' href="<?= $site->url() ?>">
-                <h1><?= $site->title() ?></h1>
-            </a>
-            <a class='orgHome' href="<?= $site->url() ?>">
-                <p>ecofeminist alliance</p>
-            </a>
-        </div>
+    
 <header class='header'>
    <div class='logo-div'>
       <a class='orgHome' href="<?= $site->url() ?>"><h1><?= $site->title() ?></h1></a>
@@ -32,7 +24,7 @@
                 <?php endforeach ?>
             </ul>
         </nav>
-    </header>
+  </header>
     <h1><?= $page->title() ?></h1>
     <?= $page->text() ?>
 
@@ -47,6 +39,8 @@
         </div>
         <button class="learn-more">LEARN MORE</button>
     </div>      
+    <?php snippet('HomePage_section4') ?>
+    <?php snippet('HomePage_section2') ?>
 
 
 </body>
