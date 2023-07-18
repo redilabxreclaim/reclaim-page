@@ -11,6 +11,7 @@
 </head>
 
 <body>
+
     
 <header class='header'>
    <div class='logo-div'>
@@ -24,18 +25,21 @@
                 <?php endforeach ?>
             </ul>
         </nav>
+
   </header>
     
 
     <?php snippet('HomePage_section5') ?>
 
     <div class="section-one">
-        <h1 class="main-title"><?= $page->title() ?></h1>
+        <h1 class="main-title"><?= $page->title() ?> <span><?= $page->text2() ?></span>
+        </h1>
         <img class="reclaim-logo" src="<?= $page->image('reclaim-logo.png')->url() ?>" alt="Reclaim Logo">
         <div class="paragraph">
-            <p><?= $page->text() ?></p>    
+            <p><?= $page->text() ?></p>
         </div>
         <button class="learn-more">LEARN MORE</button>
+    </div>
     </div>      
     <?php snippet('HomePage_section4') ?>
     <?php snippet('HomePage_section2') ?>
