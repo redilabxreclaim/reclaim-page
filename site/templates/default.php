@@ -32,6 +32,8 @@
     <?= $page->text() ?>
 
     <?php snippet('HomePage_section4') ?>
+    <?php snippet('HomePage_section2') ?>
+
 
 </body>
 
