@@ -26,17 +26,10 @@
         </nav>
   </header>
     
-
+    <?php snippet('HomePage_section1') ?>
     <?php snippet('HomePage_section5') ?>
 
-    <div class="section-one">
-        <h1 class="main-title"><?= $page->title() ?></h1>
-        <img class="reclaim-logo" src="<?= $page->image('reclaim-logo.png')->url() ?>" alt="Reclaim Logo">
-        <div class="paragraph">
-            <p><?= $page->text() ?></p>    
-        </div>
-        <button class="learn-more">LEARN MORE</button>
-    </div>      
+        
     <?php snippet('HomePage_section4') ?>
     <?php snippet('HomePage_section2') ?>
 
