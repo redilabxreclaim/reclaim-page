@@ -65,4 +65,13 @@
   font-weight: 500;
   line-height: 40px;
   }
-  
+
+  .learn-more:hover {
+background: #C29DE8;
+color:#FFFFFF;
+  }
+
+  .learn-more:active {
+    background: #AE73EA;
+    border: 8px solid #AE73EA;
+  }

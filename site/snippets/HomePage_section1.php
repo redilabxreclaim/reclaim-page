@@ -7,4 +7,4 @@
             <p><?= $page->text() ?></p>    
         </div>
         <button class="learn-more">LEARN MORE</button>
-    </div>  
+</div>  
