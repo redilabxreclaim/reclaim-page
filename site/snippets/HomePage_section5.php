@@ -26,7 +26,10 @@
 
         <a class="HM_sec5_writeBtn_a" href="<?= $kirby->url('') ?>/contact">
 
-            <button class=" HM_sec5_writeBtn">WRITE TO US</button>
+            <button class=" HM_sec5_writeBtn">
+                <?=  $page->section5_text4() ?>
+
+            </button>
         </a>
     </div>
 
