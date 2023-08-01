@@ -8,4 +8,15 @@ Text: We are a Berlin-based ecofeminist organisation adopting an intersectional 
 
 ----
 
+section5_text1: Let´s chat
+
+----
+
+section5_text2: Do you have questions regarding our organisation or our projects?
+
+----
+
+section5_text3: Would you like to join us as a partner?
+----
+
 Uuid: zc1NZRFFo8YXS42B

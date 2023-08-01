@@ -8,8 +8,24 @@ columns:
         type: fields
         fields:
           text:
-            type: textarea
+            type: text
             size: huge
+          title:
+            label: Title
+            type: text
+          titleAppend:
+            label: Title Append
+            type: text
+          
+          section5_text1:
+            label: Section 5 Text 1
+            type: text
+          section5_text2:
+            label: Section 5 Text 2
+            type: text
+          section5_text3:
+            label: Section 5 Text 3
+            type: text
   sidebar:
     width: 1/3
     sections:
@@ -18,4 +34,3 @@ columns:
         template: default
       files:
         type: files
-
