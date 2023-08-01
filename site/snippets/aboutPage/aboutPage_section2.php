@@ -4,6 +4,14 @@
 
 <section class="about_section2">
 
+
+    <div class="whoweare_img_about_sec2_container">
+
+        <?php if($image = $page->image('Section 2 Picture Who we are.png')): ?>
+        <img class="whoweare_img_about_sec2" src="<?= $image->url() ?>" alt="">
+        <?php endif ?>
+    </div>
+
     <p class="about_section2_title">
 
         <?= $page->section2_title() ?>
