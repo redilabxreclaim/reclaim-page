@@ -11,6 +11,13 @@
 
         </div>
 
+        <div class="elp">
+
+        </div>
+
+        <p class="about_sec1_title">
+            <?= $page->section1_title() ?>
+        </p>
         <p class="about_sec1_p1">
             <?= $page->section1_text1() ?>
 

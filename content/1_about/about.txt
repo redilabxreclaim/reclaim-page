@@ -2,6 +2,9 @@ Title: About
 
 ----
 
+section1_title : ECOFEMINISM
+
+----
 section1_text1 : “Intersectional ecofeminism also underscores the importance of gender, race and class, interlinking feminist concerns with human oppressions within patriarchy and the exploitations of a natural environment that women are often more reliant upon but also its guardians in many cultural contexts.” — Fatimah Kelleher
 ----
 
