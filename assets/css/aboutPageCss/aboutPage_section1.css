@@ -7,19 +7,22 @@
 }
 
 .elop_img_about_sec1 {
-  width: 850px;
+  width: 700px;
   height: 919px;
   position: absolute;
   top: 159px;
   left: 590px;
+  z-index: 0;
+
 }
 .elp {
-  width: 850px;
+  width: 700px;
   height: 919px;
   position: absolute;
   top: 159px;
-  left: 1253px;
+  left: 590px;
   border: red 1px solid;
+  z-index: 0;
 }
 
 
