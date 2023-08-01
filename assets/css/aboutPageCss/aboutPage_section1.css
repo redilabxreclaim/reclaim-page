@@ -1,3 +1,44 @@
-.hi{
-    color: red;
+@import url("https://fonts.cdnfonts.com/css/aileron");
+
+
+*{
+    --text_color_1: #4C6B5F;
+    
+}
+
+
+.elop_img_about_sec1{
+
+    width: 850px;
+    height: 919px;
+    position: absolute;
+    top: 159px;
+    left: 1253px;
+}
+
+.rectangle_about_sec1{
+
+    width: 612px;
+    height: 250px;
+    position: absolute;
+    top: 189px;
+    background-color:#EADDF7 ;
+    border-radius: 0px 40px 40px 0px;
+    left: 0;
+}
+
+
+.about_sec1_p1{
+
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 835px;
+    height: 293px;
+    font-family: "Aileron";
+    font-weight: 400;
+    font-size: 30px;
+    top: 446px;
+    left: 316px;
+    color: var(--text_color_1);
 }
