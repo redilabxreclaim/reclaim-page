@@ -36,6 +36,7 @@
 
 
     <?php snippet('aboutPage/aboutPage_section1') ?>
+    <?php snippet('aboutPage/aboutPage_section2') ?>
 
 </body>
 
