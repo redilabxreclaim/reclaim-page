@@ -49,7 +49,7 @@
         </p>
 
 
-        <p class="about_section2_p_normal">
+        <p class="about_section2_p_normal" id="learn-more">
             <?= $page->section2_text_part10() ?>
 
             <span class="about_section2_p_bold">
