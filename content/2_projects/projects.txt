@@ -2,4 +2,23 @@ Title: Projects
 
 ----
 
+Projects_buttom : JOIN THE GROUP
+
+----
+
+
+Project1_title : THE SOIL
+
+----
+
+
+Project1_headline : WITCHES GARDEN
+
+----
+
+
+Project1_description : In our little witches garden, part of the Rote Beete Gemeinschaftsgarten in Wedding, we see the soil as a fertile ground for an activist and political approach. We grow vegetables and medicinal plants, as a way to not only reclaim our connection to nature but also foster exchanges and dialogues with local communities.
+
+----
+
 Uuid: lSH3mXVzrcDYP1Gy
