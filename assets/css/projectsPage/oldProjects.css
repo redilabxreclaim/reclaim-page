@@ -1,7 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;400;900;600&family=Dancing+Script:wght@500;600&display=swap");
+@import url("https://fonts.cdnfonts.com/css/aileron");
 
-.ProjectPage-oldProjects{
+.ProjectPage-oldProjects {
+  margin: 0;
+  padding: 0;
+  display: flex;
 
-    display: flex; 
+  width: 1376px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.oldprojects_title {
+ /* width: 588px; */
+ min-width: 588px;
+ max-width: fit-content;
+  height: 144px;
+  /* border: 1px red solid; */
+  display: flex;
+ align-items: flex-end;
+
+}
+.oldprojects_title_part1 {
+  margin: 0;
+  padding: 0;
+  width: 420px;
+  height: 144px;
+  font-family: "Barlow Condensed";
+  font-weight: 900;
+  font-size: 120px;
+  /* border: 1px red solid; */
+}
+
+.oldprojects_title_part2 {
+    margin: 0;
+    padding: 0;
+    min-width: 196px;
+    max-width: fit-content;
+    height: 60px;
+    font-family: "aileron";
+    font-weight: 600;
+    font-size: 50px;
+    border: 1px red solid;
+    position: relative;
+    left: -80px;
     
 
+}
+
+
+
+
+
+.oldprojects_container {
+    margin: 0;
+    padding: 0;
+
+display: flex;
+
+}
+.oldprojects_container1 {
+  margin: 0;
+  padding: 0;
+  margin-top: 56px;
+}
+.oldprojects_img,
+img {
+  width: 680px;
+  height: 510px;
+  border-radius: 100px 0 0 100px;
 }
