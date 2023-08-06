@@ -1,4 +1,4 @@
-<?= css('../assets/css/homePageSec2.css') ?>
+<?= css('../assets/css/HomePage_section2.css') ?>
 
 
 

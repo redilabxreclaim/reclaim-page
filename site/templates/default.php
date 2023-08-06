@@ -8,6 +8,7 @@
     <title><?= $site->title() ?></title>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
     <?= css('../assets/css/index.css') ?>
+
 </head>
 
 <body>
@@ -27,11 +28,11 @@
   </header>
     
     <?php snippet('HomePage_section1') ?>
-    <?php snippet('HomePage_section5') ?>
-
-        
-    <?php snippet('HomePage_section4') ?>
     <?php snippet('HomePage_section2') ?>
+    <?php snippet('HomePage_section3') ?>        
+    <?php snippet('HomePage_section4') ?>
+    <?php snippet('HomePage_section5') ?>
+   
 
 
 </body>
