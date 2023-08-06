@@ -52,8 +52,8 @@ margin-top: 20px;
 border-radius: 50px;
 gap: 16px;
 border: 6px solid #C29DE8;
-padding: 24px;
-width:  376px;
+padding: 0px 24px 24px 24px;
+width:  330px;
 height: 549px;
 }
 
@@ -73,6 +73,10 @@ text-align: center;
 
 }
 
+.project:hover .btn_project {
+    background-color: #AE73EA;
+
+}
 .section-three a {
 float: right;
 }
@@ -105,4 +109,8 @@ a.projects_link {
     letter-spacing: 0.045em;
     text-align: left;
     color: #C29DE8;
+}
+
+a.projects_link:active {
+    color: #9747FF;
 }
