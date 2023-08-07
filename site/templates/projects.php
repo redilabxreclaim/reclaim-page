@@ -51,7 +51,7 @@
         'headline' =>     $headLine ,
         'description' =>     $description ,
         'button' =>     $button ,
-        'img' => 'projects/Section4picBookClub.jpg',
+        'img' => 'projects/Section3pic.jpg',
         'order' => 'normal' ,// this will reverse the order of containers,
  'txt_color' => '#AE73EA', //text
 'reclaim_color' =>  '#C29DE866', // 40%
