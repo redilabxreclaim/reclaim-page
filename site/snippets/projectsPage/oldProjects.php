@@ -16,14 +16,16 @@ $order = $order ?? 'normal';
 $txt_color = $txt_color ?? 'green';//text
 $reclaim_color = $reclaim_color ?? 'red'; // 40%
 $colorbtn = $colorbtn ?? 'gray'; //buttom
+$titleShift = $titleShift ?? '-80px'; //buttom
 
 ?>
 
 <div class="ProjectPage-oldProjects">
 
     <div class="oldprojects_title">
-        <p class="oldprojects_title_part1" style="color : <?= $reclaim_color?>;">RECLAIM</p>
-        <p class="oldprojects_title_part2" style="color : <?= $txt_color?>;"><?= $title ?></p>
+        <p class="oldprojects_title_part1" style="color : <?= $reclaim_color?>;">RECLAIM
+        </p>
+        <p class="oldprojects_title_part2" style="color : <?= $txt_color?>; left:  <?= $titleShift?>"><?= $title ?></p>
     </div>
 
     <div class="oldprojects_container" style="flex-direction: <?= $order === 'normal' ? 'row' : 'row-reverse' ?>;">

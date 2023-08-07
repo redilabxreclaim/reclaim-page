@@ -31,6 +31,7 @@
   font-weight: 900;
   font-size: 120px;
   /* border: 1px red solid; */
+ 
 }
 
 .oldprojects_title_part2 {
@@ -45,6 +46,7 @@
   /* border: 1px red solid; */
   position: relative;
   left: -80px;
+  bottom: 13px;
 }
 
 .oldprojects_container {
