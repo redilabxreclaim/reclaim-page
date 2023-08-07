@@ -5,32 +5,30 @@
 * {
   --text_color_1: #4c6b5f;
 }
-
+.about_section1{
+  position: relative;
+  width: 1440px;
+  height: 919px;
+  margin-top: 159px;
+  /* border: 1px red solid; */
+}
 .elop_img_about_sec1 {
   width: 700px;
   height: 919px;
   position: absolute;
-  top: 159px;
+  top: 0;
   left: 590px;
   z-index: 0;
 
 }
-.elp {
-  width: 700px;
-  height: 919px;
-  position: absolute;
-  top: 159px;
-  left: 590px;
-  border: red 1px solid;
-  z-index: 0;
-}
+
 
 
 .rectangle_about_sec1 {
   width: 612px;
   height: 250px;
   position: absolute;
-  top: 189px;
+  top: 30px;
   background-color: #eaddf7;
   border-radius: 0px 40px 40px 0px;
   left: 0;
@@ -45,7 +43,7 @@
     font-family: "Barlow Condensed";
     font-weight: 600;
     font-size: 100px;
-    top: 254px;
+    top: 95px;
     left: 464px;
     color: var(--text_color_1);
 
@@ -59,7 +57,7 @@
   font-family: "Aileron";
   font-weight: 400;
   font-size: 30px;
-  top: 446px;
+  top: 287px;
   left: 316px;
   color: var(--text_color_1);
 }

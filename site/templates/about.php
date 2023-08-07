@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $site->title() ?></title>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
-    <?= css('../assets/css/index.css') ?>
+    <?= css(['../assets/css/index.css','../assets/css/aboutPageCss/aboutpage.css']) ?>
 </head>
 
 <body>
@@ -33,10 +33,12 @@
     </header>
     <?= $page->text() ?>
 
+    <div class="aboutpage_snippestcontaiener">
+        <?php snippet('aboutPage/aboutPage_section1') ?>
+        <?php snippet('aboutPage/aboutPage_section2') ?>
 
+    </div>
 
-    <?php snippet('aboutPage/aboutPage_section1') ?>
-    <?php snippet('aboutPage/aboutPage_section2') ?>
 
 </body>
 
