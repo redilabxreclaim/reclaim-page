@@ -10,19 +10,17 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* border: 1px red solid; */
 }
 
-
-
 .oldprojects_title {
- /* width: 588px; */
- min-width: 588px;
- max-width: fit-content;
+  /* width: 588px; */
+  min-width: 588px;
+  max-width: fit-content;
   height: 144px;
   /* border: 1px red solid; */
   display: flex;
- align-items: flex-end;
-
+  align-items: flex-end;
 }
 .oldprojects_title_part1 {
   margin: 0;
@@ -36,37 +34,135 @@
 }
 
 .oldprojects_title_part2 {
-    margin: 0;
-    padding: 0;
-    min-width: 196px;
-    max-width: fit-content;
-    height: 60px;
-    font-family: "aileron";
-    font-weight: 600;
-    font-size: 50px;
-    border: 1px red solid;
-    position: relative;
-    left: -80px;
-    
-
+  margin: 0;
+  padding: 0;
+  min-width: 196px;
+  max-width: fit-content;
+  height: 60px;
+  font-family: "aileron";
+  font-weight: 600;
+  font-size: 50px;
+  /* border: 1px red solid; */
+  position: relative;
+  left: -80px;
 }
-
-
-
-
 
 .oldprojects_container {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 
-display: flex;
-
+  display: flex;
+  height: fit-content;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 48px;
 }
-.oldprojects_container1 {
+.oldprojects_text_btn {
   margin: 0;
   padding: 0;
   margin-top: 56px;
+  width: 576px;
+  min-height: 510px;
+  /* border: 1px red solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 0px;
+  color: #4C6B5F;
 }
+
+.oldprojects_headline p {
+  margin: 0;
+  padding: 0;
+  width: fit-content;
+  height: 72x;
+  font-family: "Barlow Condensed";
+  font-weight: 600;
+  font-size: 60px;
+}
+
+.oldprojects_dis p {
+  margin: 0;
+  padding: 0;
+
+  font-family: "aileron";
+  font-weight: 400;
+  font-size: 24px;
+  color: #4C6B5F;
+}
+
+.oldprojects_btn {
+  /* position: absolute; */
+  width: 447px;
+  height: 95px;
+  font-family: "Barlow Condensed";
+  font-weight: 700;
+  font-size: 46px;
+  /* top: 640px; */
+  background-color: inherit;
+  border: 8px  solid;
+  border-radius: 100px;
+  /* padding: 20px 80px; */
+  z-index: 3;
+}
+
+.oldprojects_btn {
+  position: relative;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  color: white;
+  /* margin-left: 50px; */
+  padding-right: 100px;
+}
+
+
+.oldprojects_btn::after {
+  content: "\f2c6"; /* this is the unicode for the Telegram icon in Font Awesome */
+  font-family: 'Font Awesome 5 Brands';
+  font-size: 64px; /* Adjust as needed */
+  position: absolute;
+  right: 100px;
+  color: #0d8fba;
+  background-color: white;
+  border-radius: 50%; /* This makes it round */
+  width: 40px; /* Adjust as needed */
+  height: 40px; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
+  
+}
+
+
+.oldprojects_btn::before {
+  content: attr(data-hover-text2);
+  position: absolute;
+  margin: auto;
+  left: 80px;
+  opacity: 1;
+  transition: opacity 0.3s;
+  color: black;
+  color: #4C6B5F;
+
+}
+
+.oldprojects_btn:hover::before {
+    opacity: 0;
+  }
+.oldprojects_btn:hover::after {
+  opacity: 1;
+}
+
+.oldprojects_btn:hover {
+  background-color: red;
+  color: white;
+}
+
 .oldprojects_img,
 img {
   width: 680px;

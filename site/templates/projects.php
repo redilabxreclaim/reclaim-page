@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $site->title() ?></title>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
-    <?= css('../assets/css/index.css') ?>
+    <?= css(['../assets/css/index.css','../assets/css/projectsPage/projects.css']) ?>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
 </head>
 
 <body>
@@ -35,20 +37,28 @@
     <?= $page->text() ?>
 
 
-    <?php 
+    <section class="old_rojects">
+
+
+        <?php 
     $title = $page->Project1_title()->value(); 
     $headLine = $page->Project1_headline()->value(); 
     $description = $page->Project1_description()->value(); 
-$button = $page->Projects_buttom()->value(); 
-
+    $button = $page->Projects_buttom()->value(); 
+    
     snippet('projectsPage/oldProjects' ,  [
-    'title' => $title,
-    'text' =>     $description ,
-    'button' => $button,
-    'img' => 'projects/Section4picBookClub.jpg',
-    'order' => 'normal' // this will reverse the order of containers
+        'title' => $title,
+        'headline' =>     $headLine ,
+        'description' =>     $description ,
+        'button' =>     $button ,
+        'img' => 'projects/Section4picBookClub.jpg',
+        'order' => 'normal' ,// this will reverse the order of containers,
+ 'txt_color' => '#AE73EA', //text
+'reclaim_color' =>  '#C29DE866', // 40%
+ 'colorbtn' =>  '#C29DE8' //buttom
     ]); ?>
 
+    </section>
 
 
 </body>
