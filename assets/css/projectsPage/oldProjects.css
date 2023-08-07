@@ -118,6 +118,7 @@
   color: white;
   /* margin-left: 50px; */
   padding-right: 100px;
+  transition: width  .5s,margin-left .5s;
 }
 
 
@@ -160,9 +161,19 @@
   opacity: 1;
 }
 
+
+@keyframes shrink {
+  100%   {width: 420px;}
+}
+
+
 .oldprojects_btn:hover {
   background-color: red;
   color: white;
+  width: 420px;
+  margin-left: 13.5px;
+  /* animation: shrink 1s 0s 1 ; */
+  /* timing-function delay iteration-count direction fill-mode; */
 }
 
 .oldprojects_img,
