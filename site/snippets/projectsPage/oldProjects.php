@@ -17,6 +17,7 @@ $txt_color = $txt_color ?? 'green';//text
 $reclaim_color = $reclaim_color ?? 'red'; // 40%
 $colorbtn = $colorbtn ?? 'gray'; //buttom
 $titleShift = $titleShift ?? '-80px'; //buttom
+$telegramLink = $telegramLink ?? ''; 
 
 ?>
 
@@ -43,11 +44,14 @@ $titleShift = $titleShift ?? '-80px'; //buttom
 
             </div>
 
-            <button style="border-color : <?= $colorbtn?>; " class="oldprojects_btn" data-hover-text="JOIN OUR"
-                data-hover-text2="JOIN THE GROUP" onmouseover="this.style.backgroundColor='<?= $colorbtn?>';"
-                onmouseout="this.style.backgroundColor='white';">
-                JOIN OUR
-            </button>
+            <a class="telegram_a" href="<?= $telegramLink?>" target="_blank">
+
+                <button style="border-color : <?= $colorbtn?>; " class="oldprojects_btn" data-hover-text="JOIN OUR"
+                    data-hover-text2="JOIN THE GROUP" onmouseover="this.style.backgroundColor='<?= $colorbtn?>';"
+                    onmouseout="this.style.backgroundColor='white';">
+                    JOIN OUR
+                </button>
+            </a>
         </div>
 
 
