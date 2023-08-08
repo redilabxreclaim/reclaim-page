@@ -182,3 +182,7 @@ img {
   height: 510px;
   border-radius: 100px 0 0 100px;
 }
+
+.telegram_a{
+  text-decoration: none;
+}

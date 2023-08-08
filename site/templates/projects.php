@@ -40,6 +40,8 @@
     <hr style=" border-top: 3px #4C6B5F solid;width:1300px">
     <section class="old_rojects">
 
+        <!-- RECLAIM THE SOIL project -->
+
         <div>
 
             <?php 
@@ -57,10 +59,14 @@
         'order' => 'normal' ,// this will reverse the order of containers,
         'txt_color' => '#AE73EA', //text
         'reclaim_color' =>  '#C29DE866', // 40%
-        'colorbtn' =>  '#C29DE8' //buttom
+        'colorbtn' =>  '#C29DE8', //buttom
+        'telegramLink' =>  'https://t.me/+_rt2soX25kE2NWFk' 
     ]); ?>
 
         </div>
+
+
+        <!-- RECLAIM LITERATURE project -->
         <div>
 
             <?php 
@@ -79,11 +85,16 @@
         'txt_color' => '#EBB327', //text
         'reclaim_color' =>  '#F1E1B9', // 40%
         'colorbtn' =>  '#E3B74A', //buttom
+        'telegramLink' =>  'https://t.me/reclaimbookclub' ,
 
         'titleShift' => '-72px'
         ]); ?>
 
         </div>
+
+
+
+        <!-- RECLAIM POLITICS project -->
 
 
         <div>
@@ -104,6 +115,7 @@ snippet('projectsPage/oldProjects' ,  [
 'txt_color' => '#F95D30', //text
 'reclaim_color' =>  '#FAC8B9', // 40%
 'colorbtn' =>  '#F26137', //buttom
+'telegramLink' =>  'https://t.me/reclaimecofeministalliance' ,
 
 'titleShift' => '-72px'
 ]); ?>
@@ -111,6 +123,7 @@ snippet('projectsPage/oldProjects' ,  [
         </div>
 
 
+        <!-- RECLAIM WORDS project -->
 
 
         <div>
@@ -131,6 +144,7 @@ snippet('projectsPage/oldProjects' ,  [
 'txt_color' => '#447A65', //text
 'reclaim_color' =>  '#CBDDD6', // 40%
 'colorbtn' =>  '#4C6B5F', //buttom
+'telegramLink' =>  'https://t.me/reclaimecofeministalliance' ,
 
 'titleShift' => '-70px'
 ]); ?>
@@ -139,6 +153,7 @@ snippet('projectsPage/oldProjects' ,  [
 
 
 
+        <!-- RECLAIM THE STREETS project -->
 
 
         <div>
@@ -159,6 +174,7 @@ snippet('projectsPage/oldProjects' ,  [
 'txt_color' => '#AE73EA', //text
 'reclaim_color' =>  '#E7D8F6', // 40%
 'colorbtn' =>  '#C29DE8', //buttom
+'telegramLink' =>  'https://t.me/reclaimecofeministalliance' ,
 
 'titleShift' => '-80px'
 ]); ?>
@@ -167,6 +183,7 @@ snippet('projectsPage/oldProjects' ,  [
 
 
 
+        <!-- RECLAIM IT ALL project -->
 
         <div>
 
@@ -186,6 +203,7 @@ snippet('projectsPage/oldProjects' ,  [
 'txt_color' => '#EBB327', //text
 'reclaim_color' =>  '#F1E1B9', // 40%
 'colorbtn' =>  '#E3B74A', //buttom
+'telegramLink' =>  '' ,
 
 'titleShift' => '-71px'
 ]); ?>
