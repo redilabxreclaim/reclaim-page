@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $site->title() ?></title>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Barlow:wght@700&family=Overpass:wght@100&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <?= css('../assets/css/index.css') ?>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Barlow:wght@400;700&family=Overpass:wght@100&family=Roboto:wght@400;700&family=Rubik:ital@1&display=swap" rel="stylesheet">
+<?= css('../assets/css/index.css') ?>
 </head>
-
 <body>
    <header class='header'>
    <div class='logo-div'>
@@ -25,10 +25,7 @@
             </ul>
         </nav>
   </header>
-    
-
     <?php snippet('HomePage_section5') ?>
-
     <div class="section-one">
         <h1 class="main-title"><?= $page->title() ?></h1>
         <img class="reclaim-logo" src="<?= $page->image('reclaim-logo.png')->url() ?>" alt="Reclaim Logo">
@@ -39,8 +36,5 @@
     </div>      
     <?php snippet('HomePage_section4') ?>
     <?php snippet('HomePage_section2') ?>
-
-
 </body>
-
 </html>

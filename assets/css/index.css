@@ -7,9 +7,10 @@ li {
   margin-right: 2rem;
 }
 .orgHome {
-  font-size: 12px;
+  font-size: 36px;
   color: #4c6b5f;
   text-decoration: none;
+  display: block;
 }
 .orgHome h1 {
   color: #4c6b5f;
@@ -26,7 +27,7 @@ li {
   font-family: "Barlow", sans-serif;
   font-size: 36px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 100;
   line-height: 111.5%;
   letter-spacing: -0.9px;
   margin-top: 0;
@@ -104,6 +105,7 @@ footer {
 .logo-image {
   width: 165px;
   height: 125px;
+  flex-shrink: 0;
 }
 .logo-div {
   position: relative;
@@ -125,16 +127,16 @@ footer {
 }
 .main-title {
   width: 917px;
-height: 144px;
-right: 100px;
- color: #4C6B5F;
-text-align: center;
-font-family: "Barlow Condensed", sans-serif;
-font-size: 7.5rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 0.3375rem;
+  height: 144px;
+  right: 100px;
+  color: #4c6b5f;
+  text-align: center;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 7.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.3375rem;
 }
 
 .section-one {
@@ -153,40 +155,43 @@ letter-spacing: 0.3375rem;
   top: 0;
   z-index: -1;
   width: 608px;
-height: 600px;
-left: 700px;
-
+  height: 600px;
+  left: 700px;
 }
 
 .section-one .paragraph {
   position: absolute;
-  color: #4C6B5F;
+  color: #4c6b5f;
   width: 829px;
-height: 160px;
-top: 350px;
-left: 80px;
+  height: 160px;
+  top: 350px;
+  left: 80px;
   font-family: "Aileron";
-font-size: 30px;
-font-weight: 400;
-line-height: 40px;
-letter-spacing: 0.045em;
-text-align: left;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.045em;
+  text-align: left;
 }
 
 .learn-more {
   position: absolute;
- width: 378px;
-height: 95px;
-top: 621px;
-left: 80px;
-padding: 20px 80px 20px 80px;
-border-radius: 100px;
-border: 8px solid #C29DE8;
-gap: 10px;
-background: #FFFFFF;
-color: #4C6B5F;
-font-family: "Barlow Condensed";
-font-size: 46px;
-font-weight: 500;
-line-height: 40px;
+  width: 378px;
+  height: 95px;
+  top: 621px;
+  left: 80px;
+  padding: 20px 80px 20px 80px;
+  border-radius: 100px;
+  border: 8px solid #c29de8;
+  gap: 10px;
+  background: #ffffff;
+  color: #4c6b5f;
+  font-family: "Barlow Condensed";
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 40px;
 }
+/* .logoParagraph {
+  font-weight: 100 !important;
+  color: #c29de8;
+} */
