@@ -13,41 +13,47 @@ ul {
 li {
   margin-right: 2rem;
 }
-.org h1 {
-  font-family: "Barlow Condensed", sans-serif;
-  margin-bottom: 0;
-}
-.org p {
-  font-family: "Barlow Condensed", sans-serif;
-  font-weight: 400;
-  margin-top: 0;
-}
 .orgHome {
-  font-size: 12px;
+  font-size: 36px;
   color: #4c6b5f;
   text-decoration: none;
+  display: block;
 }
 .orgHome h1 {
-  font-family: "Barlow Condensed", sans-serif;
+  color: #4c6b5f;
+  font-family: "Barlow", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 111.5%; /* 44.6px */
+  letter-spacing: -0.4px;
   margin-bottom: 0;
 }
 .orgHome p {
-  font-family: "Barlow Condensed", sans-serif;
-  font-weight: 400;
+  color: #4c6b5f;
+  font-family: "Barlow", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 111.5%;
+  letter-spacing: -0.9px;
   margin-top: 0;
-  font-size: 20px;
 }
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 80px;
+  padding-top: 24px;
 }
 footer {
   background-color: gray;
   height: 100px;
   margin-top: 1rem;
   padding-top: 1rem;
+}
+.menu-links {
+  margin-right: 32px;
 }
 .menu-links li {
   list-style: none;
@@ -60,15 +66,18 @@ footer {
   justify-content: center;
   color: #4c6b5f;
   text-transform: uppercase;
+  font-family: "Barlow Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 .header-button {
-  width: 40px;
-  height: 19px;
-  padding: 10px 20px;
+  display: flex;
+  padding: 8px 24px;
+  align-items: flex-start;
   border-radius: 100px;
   border: 4px solid #4c6b5f;
-  margin: 10px;
-  background-color: transparent;
+  margin-right: 16px;
 }
 .menu {
   width: 50%;
@@ -81,20 +90,29 @@ footer {
   display: flex;
   flex-direction: column;
   width: 50%;
-  padding-left: 30px;
+  padding-left: 32px;
 }
 .org {
   font-size: 12px;
   color: #4c6b5f;
   text-decoration: none;
 }
+.org h1 {
+  font-family: "Barlow Condensed", sans-serif;
+  margin-bottom: 0;
+
+  font-size: 18px;
+}
+.org p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+  font-size: 12px;
+}
 .logo-image {
-  position: absolute;
-  width: 30%;
-  height: auto;
-  opacity: 0.5;
-  z-index: -1;
-  margin-left: 30px;
+  width: 165px;
+  height: 125px;
+  flex-shrink: 0;
 }
 .logo-div {
   position: relative;
@@ -105,21 +123,82 @@ footer {
   width: 50%;
 }
 .logoText1 {
-  margin-left: 48px;
+  margin-left: 15px;
   padding: 0;
   margin-bottom: 0;
   margin-top: 0;
 }
 .logoText2 {
-  margin-left: 68px;
+  margin-left: 38px;
   padding: 0;
 }
-.header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;  
+.main-title {
+  width: 917px;
+  height: 144px;
+  right: 100px;
+  color: #4c6b5f;
   text-align: center;
-  z-index: 1000;
-  background-color: #fff;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 7.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.3375rem;
 }
+
+.section-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-title {
+  position: relative;
+  z-index: 1;
+}
+
+.reclaim-logo {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 608px;
+  height: 600px;
+  left: 700px;
+}
+
+.section-one .paragraph {
+  position: absolute;
+  color: #4c6b5f;
+  width: 829px;
+  height: 160px;
+  top: 350px;
+  left: 80px;
+  font-family: "Aileron";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.045em;
+  text-align: left;
+}
+
+.learn-more {
+  position: absolute;
+  width: 378px;
+  height: 95px;
+  top: 621px;
+  left: 80px;
+  padding: 20px 80px 20px 80px;
+  border-radius: 100px;
+  border: 8px solid #c29de8;
+  gap: 10px;
+  background: #ffffff;
+  color: #4c6b5f;
+  font-family: "Barlow Condensed";
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 40px;
+}
+/* .logoParagraph {
+  font-weight: 100 !important;
+  color: #c29de8;
+} */
