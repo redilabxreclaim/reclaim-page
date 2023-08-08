@@ -2,66 +2,65 @@ Title: About
 
 ----
 
-section1_title : ECOFEMINISM
-
-----
-section1_text1 : “Intersectional ecofeminism also underscores the importance of gender, race and class, interlinking feminist concerns with human oppressions within patriarchy and the exploitations of a natural environment that women are often more reliant upon but also its guardians in many cultural contexts.” — Fatimah Kelleher
-----
-
-section2_title : WHO WE ARE
+Section1-title: ECOFEMINISM
 
 ----
 
-section2_text_part1 : We are Reclaim - Ecofeminist Alliance, a Berlin-based organisation created in January 2023. 
+Section1-text1: “Intersectional ecofeminism also underscores the mportance of gender, race and class, interlinking feminist concerns with human oppressions within patriarchy and the exploitations of a natural environment that women are often more reliant upon but also its guardians in many cultural contexts.” — Fatimah Kelleher
 
 ----
 
-section2_text_part2 : We are a group of friends from diverse backgrounds but gathered by one conviction:
+Section2-title: WHO WE ARE
 
 ----
 
-section2_text_part3 : we need to dismantle the structural causes of exploitation systems, 
+Section2-text11: We are Reclaim - Ecofeminist Alliance, a Berlin-based organisation created in January 2023.
 
 ----
 
-section2_text_part4 : which perpetuate climate change and sexist oppressions. 
+Section2-text2: We are a group of friends from diverse backgrounds but gathered by one conviction: **we need to dismantle the structural causes of exploitation systems,** which perpetuate climate change and sexist oppressions.
 
 ----
 
-section2_text_part5 : We see
+Section2-text3: We see **patriarchal capitalism as the common denominator** of the systems that destroy our planet and oppress women and minorities.
 
 ----
 
-section2_text_part6 :  patriarchal capitalism as the common denominator 
- 
+Section2-text4: We are **environmental activists, intersectional and intercultural feminists. **
 
 ----
 
-section2_text_part7 : of the systems that destroy our planet and oppress women and minorities. 
-
-
-----
-
-
-section2_text_part8: We are 
+Section2-text5: We aim to **build together a fairer society** with a de-colonial, revolutionary, queer, antispecist, and non-violent approach.
 
 ----
 
-section2_text_part9 : environmental activists, intersectional and intercultural feminists. 
-
-
-----
-
-section2_text_part10 : We aim to
+Section3-title: WHAT WE DO
 
 ----
 
-section2_text_part11 :  build together a fairer society 
+Section3-text11: Reclaim means recovering and rehabilitating what has been taken away from us. We want to reinvent the ecosystems that surround us, in a truly **intersectional** manner.
 
 ----
 
-section2_text_part12 : with a de-colonial, revolutionary, queer, antispecist, and non-violent approach.
+Section3-text2: Our approach is plural and involves **political action, art, literature, dialogue** and to more foster holistic and structural change - that is the essence of ecofeminism!
 
+----
+
+Section3-text3: We believe in projects that **connect us with local communities and empower marginalised voices.**
+
+----
+
+Section3-text4:
+
+Our activities include: 
+-  A 'Witches Garden' at Rote Beete
+-  Writing workshops
+-  A book club
+- 'Seeding Freedom' Festival1.
+
+----
+
+Section3-text5: Write to us if you want to join a project!
 
 ----
 
