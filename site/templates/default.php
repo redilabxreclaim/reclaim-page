@@ -33,6 +33,7 @@
             </ul>
         </nav>
     </header>
+    <h1>trial</h1>
     <?php snippet('HomePage_section1') ?>
     <?php snippet('HomePage_section2') ?>
     <?php snippet('HomePage_section3') ?>
