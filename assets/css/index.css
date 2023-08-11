@@ -1,8 +1,9 @@
-body, html{
-  margin:0;
-  padding:0;
+body,
+html {
+  margin: 0;
+  padding: 0;
 }
-html{
+html {
   box-sizing: border-box;
 }
 ul {
@@ -132,7 +133,9 @@ footer {
   margin-left: 38px;
   padding: 0;
 }
-.main-title {
+.section-one .main-title {
+  position: relative;
+  z-index: 1;
   width: 917px;
   height: 144px;
   right: 100px;
@@ -144,19 +147,19 @@ footer {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.3375rem;
+  margin-top: 0px;
+  margin-right: 200px;
 }
-
+.bold-text {
+  color: #4c6b5f;
+  margin-left: 0px;
+  margin-top: 0px;
+}
 .section-one {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-.main-title {
-  position: relative;
-  z-index: 1;
-}
-
 .reclaim-logo {
   position: absolute;
   top: 0;
@@ -202,3 +205,39 @@ footer {
   font-weight: 100 !important;
   color: #c29de8;
 } */
+.projects-section1-h1 {
+  color: #4c6b5f;
+  font-family: Barlow Condensed;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 4.5px;
+  margin-left: 435px;
+}
+.projects-section1-p {
+  color: #4c6b5f;
+  font-family: Aileron;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 149%; /* 44.7px */
+  margin-left: 435px;
+  width: 840px;
+}
+.custom-button {
+  display: inline-block;
+  padding: 8px 24px;
+  color: #ffffff; /* This is a white color, but you can choose any color */
+  background-color: #4c6b5f; /* Color from other buttons in your CSS */
+  text-decoration: none;
+  border-radius: 100px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #3a564b; /* Darkened version of the original color */
+}
