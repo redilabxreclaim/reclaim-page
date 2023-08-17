@@ -13,7 +13,7 @@
         href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Barlow:wght@400;700&family=Overpass:wght@100&family=Roboto:wght@400;700&family=Rubik:ital@1&display=swap"
         rel="stylesheet">
     <?= css('../assets/css/index.css') ?>
-</head>
+  </head>
 
 <body>
     <header class='header'>
@@ -33,7 +33,7 @@
             </ul>
         </nav>
     </header>
-    <h1>trial</h1>
+    <!-- <h1>trial</h1> -->
     <?php snippet('HomePage_section1') ?>
     <?php snippet('HomePage_section2') ?>
     <?php snippet('HomePage_section3') ?>

@@ -34,10 +34,12 @@
     </ul>
 </nav>
     </header>      
-<h1><?= $page->title() ?></h1>
     <?= $page->text() ?>
-
-    <hr style=" border-top: 3px #4C6B5F solid;width:1300px">
+     <!-- section 1 starts here-->
+<h1 class='projects-section1-h1'>OUR PROJECTS</h1>
+<p class='projects-section1-p'>Through a range of diverse projects, we are dedicated to promoting environmental sustainability, social justice, and the empowerment of all beings. We invite you to explore our activities and find the ones that resonate with you.</p>
+ <hr style=" border-top: 3px #4C6B5F solid;width:1300px">
+     <!-- section 1 finishes here-->
     <section class="old_rojects">
 
         <!-- RECLAIM THE SOIL project -->
