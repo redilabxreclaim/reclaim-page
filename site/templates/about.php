@@ -17,28 +17,30 @@
                 <img src="<?= $page->image('pagesLogo.jpg')->url() ?>" alt="Logo" class="logo-image">
             </a>
         </div>
-    <nav class='menu'>
-    <ul class='menu-links'>
-    <?php foreach ($site->children()->listed() as $item): ?>
-        <?php 
+        <nav class='menu'>
+            <ul class='menu-links'>
+                <?php foreach ($site->children()->listed() as $item): ?>
+                <?php 
        
         $currentURL = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
         $isActive = ($currentURL === 'http://localhost:8888/About' && $item->url() == $currentURL);
         ?>
-        <li>
-<a class='header-button' href="<?= $item->url() ?>" style="<?= $isActive ? 'color:white ;background-color: #4c6b5f;' : '' ?>"><?= $item->title() ?></a>
-        </li>
-    <?php endforeach ?>
-    </ul>
-</nav>
+                <li>
+                    <a class='header-button' href="<?= $item->url() ?>"
+                        style="<?= $isActive ? 'color:white ;background-color: #4c6b5f;' : '' ?>"><?= $item->title() ?></a>
+                </li>
+                <?php endforeach ?>
+            </ul>
+        </nav>
     </header>
-    
+
     <?= $page->text() ?>
 
     <div class="aboutpage_snippestcontaiener">
         <?php snippet('aboutPage/aboutPage_section1') ?>
         <?php snippet('aboutPage/aboutPage_section2') ?>
         <?php snippet('aboutPage/aboutPage_section3') ?>
+        <?php snippet('aboutPage/aboutPage_section4') ?>
 
     </div>
 
