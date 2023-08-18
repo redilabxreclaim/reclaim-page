@@ -12,8 +12,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Barlow:wght@400;700&family=Overpass:wght@100&family=Roboto:wght@400;700&family=Rubik:ital@1&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <?= css('../assets/css/index.css') ?>
-  </head>
+</head>
 
 <body>
     <header class='header'>
@@ -39,6 +40,9 @@
     <?php snippet('HomePage_section3') ?>
     <?php snippet('HomePage_section4') ?>
     <?php snippet('HomePage_section5') ?>
+    <?php snippet('footer' ,  [
+        'color1' => '#C29DE8',
+        'color2' => '#FFFFFF',]) ?>
 </body>
 
 </html>

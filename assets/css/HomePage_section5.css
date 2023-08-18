@@ -18,9 +18,11 @@
   /* justify-content: center; */
   position: absolute;
   width: 100%;
-  height: 909px;
+  height: 1053px;
   /* border: red solid 2px; */
   top: 3547px;
+  /* margin-bottom: 144px; */
+
 }
 
 .HM_sec5_content {
@@ -35,6 +37,7 @@
   height: 100%;
   /* top: 200px; */
   background-color: var(--hover);
+
 }
 .HM_sec5_p1 {
   margin: 0;
