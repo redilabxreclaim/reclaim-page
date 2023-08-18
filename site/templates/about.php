@@ -38,6 +38,7 @@
     <div class="aboutpage_snippestcontaiener">
         <?php snippet('aboutPage/aboutPage_section1') ?>
         <?php snippet('aboutPage/aboutPage_section2') ?>
+        <?php snippet('aboutPage/aboutPage_section3') ?>
 
     </div>
 

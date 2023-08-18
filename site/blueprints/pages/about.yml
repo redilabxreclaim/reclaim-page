@@ -9,14 +9,71 @@ columns:
         fields:
           
           
-          # section 1
-          section1_title:
-            label: Section 1 title
-            type: text
-          section1_text1:
-            label: Section 1 Text 1
-            type: text
+            # section 1
+            section1_title:
+              label: Section 1 title
+              type: text
+            section1_text1:
+              label: Section 1 Text 1
+              type: textarea
+                # section 2
+            section2_title:
+              label: WHO WE ARE
+              type: text
+      
+              
+            section2_text11:
+              label: Text 1
+              type: textarea
           
+            section2_text2:
+              label: Text 2
+              type: textarea
+          
+        
+          
+          section2_text3:
+              label: Text 3
+              type: textarea
+          
+          section2_text4:
+              label: Text 4
+              type: textarea
+
+          section2_text5:
+              label: Text 5
+              type: textarea
+
+
+                 # section 3
+          section3_title:
+            label: WHAT WE DO
+            type: text
+      
+            
+          section3_text11:
+            label: Text 1
+            type: textarea
+        
+          section3_text2:
+            label: Text 2
+            type: textarea
+        
+        
+        
+          section3_text3:
+            label: Text 3
+            type: textarea
+        
+          section3_text4:
+            label: Text 4
+            type: textarea
+
+          section3_text5:
+            label: Text 5
+            type: textarea
+        
+            
           
   sidebar:
     width: 1/3

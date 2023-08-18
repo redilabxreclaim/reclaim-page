@@ -21,52 +21,28 @@
 
 
         <p class="about_section2_p_normal">
-            <?= $page->section2_text_part1() ?>
-
-        </p>
-        <p class="about_section2_p_normal">
-            <?= $page->section2_text_part2() ?>
-            <span class="about_section2_p_bold">
-                <?= $page->section2_text_part3() ?>
-
-            </span>
-            <?= $page->section2_text_part4() ?>
-
+            <?= $page->section2_text11()->kt()->inline() ?>
 
         </p>
 
         <p class="about_section2_p_normal">
-            <?= $page->section2_text_part5() ?>
-
-            <span class="about_section2_p_bold">
-                <?= $page->section2_text_part6() ?>
-
-            </span>
-            <?= $page->section2_text_part7() ?>
+            <?= $page->section2_text2()->kt()->inline() ?>
 
         </p>
-
         <p class="about_section2_p_normal">
-            <?= $page->section2_text_part8() ?>
+            <?= $page->section2_text3()->kt()->inline() ?>
 
-            <span class="about_section2_p_bold">
-                <?= $page->section2_text_part9() ?>
+        </p>
+        <p class="about_section2_p_normal">
+            <?= $page->section2_text4()->kt()->inline() ?>
 
-            </span>
+        </p>
+        <p class="about_section2_p_normal">
+            <?= $page->section2_text5()->kt()->inline() ?>
 
         </p>
 
 
-        <p class="about_section2_p_normal" id="learn-more">
-            <?= $page->section2_text_part10() ?>
-
-            <span class="about_section2_p_bold">
-                <?= $page->section2_text_part11() ?>
-
-            </span>
-            <?= $page->section2_text_part12() ?>
-
-        </p>
 
     </article>
 
