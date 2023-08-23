@@ -55,11 +55,8 @@
 </header>      
 
 <div class="contact-box">
-    <!-- Option 2: Obfuscated Email Address -->
-    <p>Contact us by email: <a href="mailto:&#114;&#101;&#99;&#108;&#97;&#105;&#109;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#114;&#101;&#99;&#108;&#97;&#105;&#109;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></p>
-
-    <!-- Option 4: Clear Instructions -->
     <p>Feel free to send us an email at the provided address for inquiries and assistance.</p>
+    <p>Contact us by email: <a href="mailto:contact@reclaim-ecofeministalliance.org">contact@reclaim-ecofeministalliance.org</a></p>
 </div>
 
 <?= $page->text() ?>
