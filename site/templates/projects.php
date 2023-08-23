@@ -44,7 +44,7 @@
 
         <!-- RECLAIM THE SOIL project -->
 
-        <div>
+        <div id="reclaim-the-soil">
 
             <?php 
     $title = $page->Project1_title()->value(); 
@@ -69,7 +69,7 @@
 
 
         <!-- RECLAIM LITERATURE project -->
-        <div>
+        <div id="reclaim-literature">
 
             <?php 
     $title = $page->Project2_title()->value(); 
@@ -99,7 +99,7 @@
         <!-- RECLAIM POLITICS project -->
 
 
-        <div>
+        <div id="reclaim-politics">
 
             <?php 
 $title = $page->Project3_title()->value(); 

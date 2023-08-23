@@ -34,10 +34,10 @@
                 <img class="img_about_rediimg" src="<?= $image->url() ?>" alt="">
                 <?php endif ?>
 
-                <p class="img_about_reditxt">This website has been developed as part of the ReDI Labs educational program at 
-                    <a target="_blank" href="https://www.redi-school.org/" class="img_about_reditxt2">ReDi School of
+                <p class="img_about_reditxt">This website has been developed as part of the <b>ReDI Labs</b> educational program at 
+                    <a target="_blank" href="https://www.redi-school.org/" class="img_about_reditxt2"><b>ReDi School of
                         Digital
-                        Integration</a>. ReDI School is a non-profit tech school with the mission to accelerate the social
+                        Integration</b></a>. ReDI School is a non-profit tech school with the mission to accelerate the social
                         and professional integration of forced migrants and other underserved communities of locals and
                         newcomers through free digital education and career support. 
 
