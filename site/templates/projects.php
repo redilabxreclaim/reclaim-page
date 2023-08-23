@@ -128,7 +128,7 @@ snippet('projectsPage/oldProjects' ,  [
         <!-- RECLAIM WORDS project -->
 
 
-        <div>
+        <div id="reclaim-words">
 
             <?php 
 $title = $page->Project4_title()->value(); 
@@ -158,7 +158,7 @@ snippet('projectsPage/oldProjects' ,  [
         <!-- RECLAIM THE STREETS project -->
 
 
-        <div>
+        <div id="reclaim-the-streets">
 
             <?php 
 $title = $page->Project5_title()->value(); 
@@ -187,7 +187,7 @@ snippet('projectsPage/oldProjects' ,  [
 
         <!-- RECLAIM IT ALL project -->
 
-        <div>
+        <div id="reclaim-it-all">
 
             <?php 
 $title = $page->Project6_title()->value(); 
