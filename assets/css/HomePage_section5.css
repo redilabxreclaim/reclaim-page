@@ -100,6 +100,7 @@
   background-color: var(--sec2FontColor);
   border-color: var(--sec2FontColor);
   color: var(--press);
+  cursor: pointer;
 }
 /* 
 .HM_sec5_writeBtn:active {

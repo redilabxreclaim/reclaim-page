@@ -72,6 +72,7 @@
   .learn-more:hover {
 background: #C29DE8;
 color:#FFFFFF;
+cursor: pointer;
   }
 
   .learn-more:active {

@@ -109,6 +109,7 @@
   background-color: var(--hover);
   border-color: var(--hover);
   color: var(--sec2FontColor);
+  cursor: pointer;
 }
 
 .HM_4_learnBtn:active {
