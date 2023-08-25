@@ -1,7 +1,8 @@
 .foter {
   margin: 0;
   padding: 0;
-  position: fixed;
+  position: relative;
+  top: 266em;
   bottom: 0;
   width: 100%;
   height: 144px;
