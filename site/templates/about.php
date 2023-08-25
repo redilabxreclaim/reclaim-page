@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $site->title() ?></title>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
     <?= css(['../assets/css/index.css','../assets/css/aboutPageCss/aboutpage.css']) ?>
 </head>
 
@@ -44,7 +46,7 @@
 
     </div>
 
-
+    <?php snippet('footer') ?>
 </body>
 
 </html>
