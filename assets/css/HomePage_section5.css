@@ -17,6 +17,7 @@
   align-items: center;
   /* justify-content: center; */
   position: absolute;
+
   width: 100%;
   height: 1053px;
   /* border: red solid 2px; */
@@ -103,6 +104,7 @@
   background-color: var(--sec2FontColor);
   border-color: var(--sec2FontColor);
   color: var(--press);
+  cursor: pointer;
 }
 /* 
 .HM_sec5_writeBtn:active {

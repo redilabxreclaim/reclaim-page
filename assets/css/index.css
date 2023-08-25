@@ -148,7 +148,6 @@ footer {
   line-height: normal;
   letter-spacing: 0.3375rem;
   margin-top: 0px;
-  margin-right: 200px;
 }
 .bold-text {
   color: #4c6b5f;
@@ -201,19 +200,16 @@ footer {
   font-weight: 500;
   line-height: 40px;
 }
-/* .logoParagraph {
-  font-weight: 100 !important;
-  color: #c29de8;
-} */
+
 .projects-section1-h1 {
   color: #4c6b5f;
-  font-family: Barlow Condensed;
+  font-family: "Barlow Condensed";
   font-size: 100px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   letter-spacing: 4.5px;
-  margin-left: 435px;
+  margin-left: 335px;
 }
 .projects-section1-p {
   color: #4c6b5f;
@@ -222,14 +218,14 @@ footer {
   font-style: normal;
   font-weight: 400;
   line-height: 149%; /* 44.7px */
-  margin-left: 435px;
+  margin-left: 335px;
   width: 840px;
 }
 .custom-button {
   display: inline-block;
   padding: 8px 24px;
-  color: #ffffff; /* This is a white color, but you can choose any color */
-  background-color: #4c6b5f; /* Color from other buttons in your CSS */
+  color: #ffffff; 
+  background-color: #4c6b5f; 
   text-decoration: none;
   border-radius: 100px;
   font-family: "Barlow Condensed", sans-serif;
@@ -239,5 +235,5 @@ footer {
 }
 
 .custom-button:hover {
-  background-color: #3a564b; /* Darkened version of the original color */
+  background-color: #3a564b; 
 }

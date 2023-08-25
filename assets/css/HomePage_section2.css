@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  width: 100%;
+  width: 1440px;
   height: fit-content;
   top: 900px;
 }
@@ -98,4 +98,39 @@
   background-color: var(--press);
   border-color: var(--press);
   color: var(--sec2FontColor);
+}
+
+/* Style the link and its container */
+#link-btn {
+  display: flex; /* Use flexbox to center the button vertically and horizontally */
+  justify-content: center;
+  align-items: center;
+  text-decoration: none; /* Remove underline */
+  color: var(--sec2FontColor);
+  font-family: "Barlow Condensed";
+  font-weight: 700;
+  font-size: 46px;
+}
+
+/* Style the button */
+#link-btn .learnBtn {
+  background-color: transparent;
+  border: 8px solid var(--sec2FontColor);
+  border-radius: 100px;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  color: inherit; /* Inherit color from the parent link */
+}
+
+/* Hover and active states */
+#link-btn:hover .learnBtn {
+  background-color: var(--hover);
+  border-color: var(--hover);
+  cursor: pointer;
+}
+
+#link-btn:active .learnBtn {
+  background-color: var(--press);
+  border-color: var(--press);
 }

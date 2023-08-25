@@ -19,7 +19,7 @@
   align-items: center;
   /* justify-content: center; */
   position: absolute;
-  width: 100%;
+  width: 1440px;
   height: 909px;
   top: 2635px;
   /* border: red solid 2px; */
@@ -109,6 +109,7 @@
   background-color: var(--hover);
   border-color: var(--hover);
   color: var(--sec2FontColor);
+  cursor: pointer;
 }
 
 .HM_4_learnBtn:active {
