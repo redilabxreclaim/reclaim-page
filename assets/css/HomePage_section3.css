@@ -1,6 +1,6 @@
 .section-three {
     background-color: #4C6B5F;
-    width: 100%;  
+    width: 1440px;
     height: 918px;
     position: absolute;
     top: 1710px;
@@ -105,7 +105,7 @@ a.projects_link {
     text-transform: uppercase;
     position: relative;
     top: 55px;
-    font-family: Barlow Condensed;
+    font-family: "Barlow Condensed";
     font-size: 48px;
     font-weight: 700;
     line-height: 58px;
