@@ -18,9 +18,10 @@
         
     </div>
    
-        <a href="https://www.youtube.com/watch?v=S4mVbO1B6mg" target="_blank" >
-            <button class="learnBtn"><?= $page-> section2_text5()?></button>
-        </a>
+    <a href="<?= url('home/ecofeminist-afternoon-by-reclaim.pdf') ?>" target="_blank" id="link-btn">
+    <button class="learnBtn"><?= $page->section2_text5() ?></button>
+</a>
+
     
    
     

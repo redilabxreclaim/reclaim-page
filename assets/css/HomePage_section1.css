@@ -83,3 +83,15 @@ cursor: pointer;
   .bold-text {
     font-weight: 600;
   }
+
+
+  /*Media queries*/
+  @media (max-width: 768px) {
+    .main-title {
+      width: auto;
+      font-size: 5rem;
+      top: 80px;
+      right: 0px;
+      left: 145px;
+    }
+  }
