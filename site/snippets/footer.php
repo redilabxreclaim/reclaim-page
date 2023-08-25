@@ -37,7 +37,7 @@ $color2 = $color2 ?? '#C29DE8';
             </a>
 
             <!-- YouTube Icon -->
-            <a href="https://www.youtube.com/channel/your_channel_id" target="_blank">
+            <a href="https://youtu.be/S4mVbO1B6mg" target="_blank">
                 <i class="fab fa-youtube"></i>
             </a>
 
