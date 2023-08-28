@@ -6,5 +6,7 @@
         <div class="paragraph">
             <p><?= $page->text() ?></p>    
         </div>
-        <button class="learn-more">LEARN MORE</button>
+        <a href="about#about-section-one">
+            <button class="learn-more">LEARN MORE</button>
+        ></a>
 </div>  

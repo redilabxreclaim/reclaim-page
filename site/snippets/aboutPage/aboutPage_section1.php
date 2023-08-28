@@ -1,7 +1,7 @@
 <?= css('../assets/css/aboutPageCss/aboutPage_section1.css') ?>
 
 
-<section class="about_section1">
+<section class="about_section1" id="about-section-one">
 
 
     <?php if($image = $page->image('EllipseAboutSection1.png')): ?>
