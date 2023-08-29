@@ -62,6 +62,10 @@
             </ul>
         </nav>
     </header>
+    <div class="contact-box">
+        <p>Feel free to send us an email at the provided address for inquiries and assistance.</p>
+        <p>Contact us by email: <a href="mailto:contact@reclaim-ecofeministalliance.org">contact@reclaim-ecofeministalliance.org</a></p>
+    </div>
     <?= $page->text() ?>
     <?php snippet('footer') ?>
 
