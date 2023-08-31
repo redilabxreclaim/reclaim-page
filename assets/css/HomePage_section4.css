@@ -72,11 +72,11 @@
 
 .HM_4_teamImg {
   position: absolute;
-
   width: 932px;
   height: 611.99px;
   top: 302.6px;
   z-index: 2;
+  border-radius: 100px;
 }
 .HM_4_ImgBG {
   position: absolute;

@@ -21,8 +21,7 @@
 
 
 
-        <img class="HM_4_teamImg" src="<?= url('home/HomePage_section4/reclaim_team.png') ?>" alt="">
-        <img class="HM_4_ImgBG" src="<?= url('home/HomePage_section4/Circle.svg') ?>" alt="">
+        <img class="HM_4_teamImg" src="<?= url('home/reclaim-team.jpg') ?>" alt="">
 
         <a class="HM_4_learna" href="about">
             <button class="HM_4_learnBtn">
