@@ -60,6 +60,10 @@ columns:
           section5_text4:
             label: Section 5 Text 4
             type: text
+          
+          section5_text5:
+            label: Section 5 Text 5
+            type: text
   sidebar:
     width: 1/3
     sections:

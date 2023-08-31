@@ -22,17 +22,17 @@ $color2 = $color2 ?? '#C29DE8';
         <a style="color : <?= $color1?>;" class="foter_mail" href="mailto:reclaim@gmail.com">reclaim@gmail.com</a>
         <div class="foter_social">
             <!-- Facebook Icon -->
-            <a href=" https://www.facebook.com/your_username_or_page" target="_blank">
+            <a href="https://www.facebook.com/people/Reclaim-Ecofeminist-Alliance/100091492013872/" target="_blank">
                 <i class="fa-brands fa-facebook"></i>
             </a>
 
             <!-- Instagram Icon -->
-            <a href="https://www.instagram.com/your_username" target="_blank">
+            <a href="https://www.instagram.com/reclaim.ecofeminist/" target="_blank">
                 <i class="fab fa-instagram"></i>
             </a>
 
             <!-- Telegram Icon -->
-            <a href="https://t.me/your_username" target="_blank">
+            <a href="https://t.me/reclaimecofeministalliance" target="_blank">
                 <i class="fab fa-telegram-plane"></i>
             </a>
 
