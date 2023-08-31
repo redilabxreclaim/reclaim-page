@@ -29,13 +29,7 @@
 
         </div>
 
-        <a class="HM_sec5_writeBtn_a" href="contact">
-
-            <button class=" HM_sec5_writeBtn">
-                <?=  $page->section5_text4() ?>
-
-            </button>
-        </a>
+        
     </div>
 
 
