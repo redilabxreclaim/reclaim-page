@@ -81,7 +81,7 @@ footer {
   margin-right: 16px;
 }
 .menu {
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
   position: relative;

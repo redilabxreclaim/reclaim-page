@@ -24,7 +24,7 @@
   }
   
   .main-title {
-    position: relative;
+    /* position: relative; */
     z-index: 1;
   }
   
@@ -88,12 +88,18 @@ cursor: pointer;
 
 
   /*Media queries*/
-  @media (max-width: 768px) {
+  @media screen and (max-width: 480px) {
+    .section-one {
+      width: 600px;
+      max-width: 100%;
+    } 
+
     .main-title {
-      width: auto;
-      font-size: 5rem;
-      top: 80px;
-      right: 0px;
-      left: 145px;
+      width: 340px;
+      height: 192px;
+      top: 130px;
+      left: 290px;
     }
+  
   }
+  
