@@ -102,4 +102,15 @@ cursor: pointer;
     }
   
   }
+
+  @media screen and (max-width: 768px) and (min-width: 480px) {
+    .main-title {
+      left: 150px
+    }
+
+    .foter {
+      left: 100px;
+    }
+  }
+  
   
