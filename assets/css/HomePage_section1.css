@@ -1,8 +1,35 @@
+@import url("https://fonts.cdnfonts.com/css/aileron");
+
+.home-section-one_container{
+  width: 100%;
+  height: 783px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ margin: 0;
+ 
+}
+.home-section-one {
+  position: relative;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 1440px;
+  max-width: 100%;
+  height: 783px;
+  border: 1px red solid;
+ margin: 0;
+
+}
+
+
 .main-title {
-    width: 917px;
+  width: 917px;
   height: 144px;
   right: 100px;
-   color: #4C6B5F;
+  color: #4c6b5f;
   text-align: center;
   font-family: "Barlow Condensed", sans-serif;
   font-size: 7.5rem;
@@ -10,112 +37,129 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.3375rem;
-  position: relative;
-  top: 120px;  
+  /* position: relative; */
+  /* top: 120px; */
+  margin: 0;
+  padding: 0;
+  margin-top: 144px;
+  margin-left: 80px;
+  z-index: 1;
+  /* border: 1px red solid; */
+  overflow: hidden;
 
-  }
-  
-  .section-one {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 1440px;
-    max-width: 100%;
-  }
-  
-  .main-title {
-    /* position: relative; */
-    z-index: 1;
-  }
-  
-  .reclaim-logo {
-    position: absolute;
-    top: 0;
-    z-index: -1;
-    width: 608px;
-  height: 600px;
-  left: 700px;
-  
-  }
-  
-  .section-one .paragraph {
-    position: absolute;
-    color: #4C6B5F;
-    width: 829px;
+}
+
+.home-reclaim-logo {
+  position: absolute;
+  z-index: -1;
+  width: 1008px;
+  height: 1000px;
+  /* left: 700px; */
+  /* border: 1px red solid; */
+  float: right;
+  right: -120px;
+  top: -170px;
+
+}
+
+.Home-page-sec1-paragraph p{
+  margin: 0;
+  padding: 0;
+
+}
+  .Home-page-sec1-paragraph{
+  /* position: absolute; */
+  color: #4c6b5f;
+  width: 829px;
   height: 160px;
-  top: 350px;
-  left: 80px;
-    font-family: "Aileron";
+  /* top: 350px;
+  left: 80px; */
+  font-family: "Aileron";
   font-size: 30px;
   font-weight: 400;
   line-height: 40px;
-  letter-spacing: 0.045em;
+  /* letter-spacing: 0.045em; */
+  letter-spacing: 1.35px;
   text-align: left;
-  }
-  
-  .learn-more {
-    position: absolute;
-   width: 378px;
+  margin: 0;
+  margin-top: 24px;
+  margin-left: 80px;
+  /* border: 1px red solid; */
+
+}
+
+.Home-page-sec1-learn-more-a {
+  margin: 0;
+  margin-top: 32px;
+  margin-left: 80px;
+  width: 378px;
   height: 95px;
-  top: 621px;
-  left: 80px;
+}
+  .Home-page-sec1-learn-more {
+  /* position: absolute; */
+  width: 378px;
+  height: 95px;
+  /* top: 621px; */
+  /* left: 80px; */
   padding: 20px 80px 20px 80px;
   border-radius: 100px;
-  border: 8px solid #C29DE8;
+  border: 8px solid #c29de8;
   gap: 10px;
-  background: #FFFFFF;
-  color: #4C6B5F;
+  background: #ffffff;
+  color: #4c6b5f;
   font-family: "Barlow Condensed";
   font-size: 46px;
   font-weight: 500;
   line-height: 40px;
+  margin: 0;
+ 
+}
+
+.learn-more:hover {
+  background: #c29de8;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.learn-more:active {
+  background: #ae73ea;
+  border: 8px solid #ae73ea;
+}
+
+.bold-text {
+  font-weight: 600;
+}
+
+
+
+
+/*Media queries*/
+@media screen and (max-width: 480px) {
+  .section-one {
+    width: 600px;
+    max-width: 100%;
   }
 
-  .learn-more:hover {
-background: #C29DE8;
-color:#FFFFFF;
-cursor: pointer;
+  .main-title {
+    width: 340px;
+    height: 192px;
+    top: 130px;
+    left: 290px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .main-title {
+    left: 150px;
   }
 
-  .learn-more:active {
-    background: #AE73EA;
-    border: 8px solid #AE73EA;
+  .foter {
+    left: 100px;
   }
+}
 
-  .bold-text {
-    font-weight: 600;
+@media screen and (max-width: 1048px) and (min-width: 769px) {
+  .main-title {
+    left: 130px;
   }
-
-
-  /*Media queries*/
-  @media screen and (max-width: 480px) {
-    .section-one {
-      width: 600px;
-      max-width: 100%;
-    } 
-
-    .main-title {
-      width: 340px;
-      height: 192px;
-      top: 130px;
-      left: 290px;
-    }
-  
-  }
-
-  @media screen and (max-width: 768px) and (min-width: 481px) {
-    .main-title {
-      left: 150px
-    }
-
-    .foter {
-      left: 100px;
-    }
-  }
-
-  @media screen and (max-width: 1048px) and (min-width: 769px) {
-    .main-title {
-      left: 130px;
-    }
-  }
-  
+}
