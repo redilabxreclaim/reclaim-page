@@ -9,24 +9,23 @@
 }
 
 .HM_section5 {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  
+
+  width: 100%;
+  height: 909px;
+  
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
-  position: absolute;
-
-  width: 1440px;
-  height: 1053px;
-  /* border: red solid 2px; */
-  top: 3544px;
-  /* margin-bottom: 144px; */
-
+  margin: 0;
+  
+  box-sizing: border-box;
+  
 }
 
 .HM_sec5_content {
+  border: red solid 2px;
   margin: 0;
   padding: 0;
   position: relative;
@@ -59,7 +58,7 @@
   /* border: green solid 2px; */
   position: absolute;
   width: 825px;
-  height: 144px;
+  height: fit-content;
   font-family: "Aileron";
   font-weight: 400;
   font-size: 30px;
@@ -70,11 +69,14 @@
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
+  border: red solid 2px;
+
 
 }
 .HM_sec5_p_container p{
   margin: 0;
   padding: 0;
+  margin-bottom:40px ;
 }
 
 

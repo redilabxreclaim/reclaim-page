@@ -21,7 +21,6 @@
                 <?= $page->section5_text3() ?>
 
             </p>
-            <br>
             <p>
                 <?= $page->section5_text5() ?>
 
@@ -29,7 +28,7 @@
 
         </div>
 
-        
+
     </div>
 
 
