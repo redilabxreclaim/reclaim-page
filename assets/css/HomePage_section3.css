@@ -126,3 +126,159 @@ a.projects_link {
 a.projects_link:active {
   color: #9747ff;
 }
+
+/*  devices (phones, 992px and down) */
+@media only screen and (max-width: 992px) {
+  .section3 {
+    width: 100%;
+    height: 793px;
+  }
+  .section-three {
+    background-color: #4c6b5f;
+    max-width: 992px;
+    width: 100%;
+    height: 793px;
+  }
+
+  .our-projects {
+    font-size: 90px;
+    letter-spacing: 4.05px;
+  }
+
+  h3 {
+    font-size: 40px;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    margin-top: 0;
+  }
+
+  .img_projects {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 200px !important;
+    object-fit: cover;
+    display: block;
+    margin-left: 16px;
+    margin-top: 16px ;
+  }
+
+  .project {
+    display: block;
+    text-align: center;
+    margin: auto 0;
+    gap: 16px;
+    padding: 24px;
+    width: 280px;
+    height: 437px;
+  }
+
+
+  .btn_project {
+    margin: 15px 8px 0 0 !important;
+    width: 200px;
+    height: 61px;
+    padding: 16px 0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    text-align: center;
+  }
+  a {
+    margin: 0;
+
+    padding: 0;
+  }
+  a.projects_link {
+    font-size: 40px;
+  }
+
+ 
+}
+
+/*  devices (laptops/desktops, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+  .section3 {
+    width: 100%;
+   min-height: 765px;
+   height: fit-content;
+  }
+  .section-three {
+    background-color: #4c6b5f;
+    max-width: 600px;
+    width: 100%;
+    min-height: 765px;
+    height: fit-content;
+  }
+  .projects{
+    box-sizing: border-box;
+    /* padding: 0 50px; */
+
+    /* overflow-x: scroll; */
+    gap: 32px;
+ 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .our-projects {
+    font-size: 80px;
+    letter-spacing: 3.6px;
+  }
+
+  h3 {
+    font-size: 40px;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    margin-top: 0;
+  }
+
+  .img_projects {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 200px !important;
+    object-fit: cover;
+    display: block;
+    margin-left: 16px;
+    margin-top: 16px ;
+  }
+
+  .project {
+    display: block;
+    text-align: center;
+    margin: auto 0;
+    gap: 16px;
+    padding: 24px;
+    width: 280px;
+    max-height: 437px;
+    height: fit-content;
+    flex-shrink: 0;
+  }
+
+
+  .btn_project {
+    margin: 15px 8px 0 0 !important;
+    width: 200px;
+    height: 61px;
+    padding: 16px 0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    text-align: center;
+  }
+  a {
+    margin: 0;
+
+    padding: 0;
+  }
+ a.projects_link {
+    font-size: 40px;
+    top: 0;
+  }
+
+}
