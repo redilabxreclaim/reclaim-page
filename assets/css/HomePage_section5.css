@@ -9,19 +9,16 @@
 }
 
 .HM_section5 {
-  
-
   width: 100%;
   height: 909px;
-  
+
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0;
-  
+
   box-sizing: border-box;
-  
 }
 
 .HM_sec5_content {
@@ -37,7 +34,6 @@
   height: 100%;
   /* top: 200px; */
   background-color: var(--hover);
-
 }
 .HM_sec5_p1 {
   margin: 0;
@@ -70,15 +66,12 @@
   flex-direction: column;
   justify-content: space-between;
   /* border: red solid 2px; */
-
-
 }
-.HM_sec5_p_container p{
+.HM_sec5_p_container p {
   margin: 0;
   padding: 0;
-  margin-bottom:40px ;
+  margin-bottom: 40px;
 }
-
 
 .HM_sec5_writeBtn_a {
   position: absolute;
@@ -114,3 +107,106 @@
   border-color: var(--press);
   color: var(--sec2FontColor);
 } */
+
+@media only screen and (max-width: 992px) {
+  .HM_section5 {
+    width: 100%;
+    min-height: 618px;
+    height: fit-content;
+  }
+
+  .HM_sec5_content {
+    min-width: 992px;
+    width: 100%;
+    min-height: 618px;
+    height: fit-content;
+
+  }
+  .HM_sec5_p1 {
+    width: 352px;
+    height: 108px;
+    top: 112px;
+
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 4.05px;
+  }
+
+  .HM_sec5_p_container {
+   
+    width: 520px;
+    height: fit-content;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.17px;
+    top: 260px;
+  }
+  .HM_sec5_p_container p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .HM_sec5_writeBtn_a {
+    position: absolute;
+    top: 640px;
+    z-index: 3;
+  }
+
+  
+}
+
+@media only screen and (max-width: 600px) {
+
+  .HM_section5 {
+    width: 100%;
+    min-height: 572px;
+    height: fit-content;
+  }
+
+  .HM_sec5_content {
+    min-width: 600px;
+    width: 100%;
+    min-height: 572px;
+    height: fit-content;
+
+  }
+  .HM_sec5_p1 {
+    width: 313px;
+    height: 96px;
+    top: 48px;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 3.6px;
+  }
+
+  .HM_sec5_p_container {
+   
+    width: 520px;
+    height: fit-content;
+    font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.08px;
+    top: 207px;
+  }
+  .HM_sec5_p_container p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .HM_sec5_writeBtn_a {
+    position: absolute;
+    top: 640px;
+    z-index: 3;
+  }
+
+}
