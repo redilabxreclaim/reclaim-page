@@ -1,9 +1,7 @@
 .section-three {
     background-color: #4C6B5F;
-    width: 1440px;
+    width: 100%;
     height: 918px;
-    position: absolute;
-    top: 1710px;
     margin: auto;
     padding: 0;
 }
@@ -116,4 +114,11 @@ a.projects_link {
 
 a.projects_link:active {
     color: #9747FF;
+}
+
+.section3 {
+    width: 1440px;
+    position: absolute;
+    height: 918px;
+    top: 1705px;
 }

@@ -35,14 +35,20 @@
         </nav>
     </header>
     <!-- <h1>trial</h1> -->
-    <?php snippet('HomePage_section1') ?>
-    <?php snippet('HomePage_section2') ?>
-    <?php snippet('HomePage_section3') ?>
-    <?php snippet('HomePage_section4') ?>
-    <?php snippet('HomePage_section5') ?>
+    <div class="main-container">
+        <?php snippet('HomePage_section1') ?>
+        <?php snippet('HomePage_section2') ?>
+        <?php snippet('HomePage_section3') ?>
+        <?php snippet('HomePage_section4') ?>
+        <?php snippet('HomePage_section5') ?>
+    </div>
+    
+    
     <?php snippet('footer' ,  [
         'color1' => '#C29DE8',
         'color2' => '#FFFFFF',]) ?>
+    
+    
 </body>
 
 </html>

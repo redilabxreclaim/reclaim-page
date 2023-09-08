@@ -237,3 +237,7 @@ footer {
 .custom-button:hover {
   background-color: #3a564b; 
 }
+
+.main-container {
+  height: 4290px;
+}
