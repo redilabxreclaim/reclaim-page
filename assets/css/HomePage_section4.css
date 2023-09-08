@@ -11,9 +11,8 @@
 }
 
 .HM_section4 {
-
   min-height: 909px;
-  height:fit-content;
+  height: fit-content;
   width: 100%;
   text-align: center;
   display: flex;
@@ -23,9 +22,8 @@
 
   box-sizing: border-box;
 
-margin-bottom: 10px;
+  margin-bottom: 10px;
 }
-
 
 .HM_4_content {
   margin: 0;
@@ -63,7 +61,7 @@ margin-bottom: 10px;
   height: 60px;
   /* font-family: "Barlow Condensed"; */
   font-family: "aileron";
-  
+
   font-weight: 400;
   font-size: 30px;
   top: 200px;
@@ -86,13 +84,12 @@ margin-bottom: 10px;
   top: 237px;
   /* z-index: 100; */
 }
-.HM_4_learna{
+.HM_4_learna {
   position: absolute;
   width: 378px;
   height: 95px;
   top: 771px;
   z-index: 3;
-
 }
 .HM_4_learnBtn {
   width: 378px;
@@ -117,4 +114,133 @@ margin-bottom: 10px;
   background-color: var(--press);
   border-color: var(--press);
   color: var(--sec2FontColor);
+}
+
+@media only screen and (max-width: 992px) {
+  .HM_section4 {
+    min-height: 813px;
+    height: 813px;
+    width: 100%;
+
+    margin-bottom: 10px;
+  }
+
+  .HM_4_content {
+    max-width: 992px;
+    width: 100%;
+    height: 100%;
+  }
+  .HM_4_p1 {
+    width: 560px;
+    /* width: fit-content; */
+    height: 108px;
+    font-size: 90px;
+    /* left: 0; */
+    line-height: normal;
+    letter-spacing: 4.05px;
+    top: 48px;
+  }
+
+  .HM_4_p2 {
+    width: 706px;
+    height: 80px;
+
+    font-size: 26px;
+    top: 172px;
+    line-height: 40px; /* 153.846% */
+    letter-spacing: 1.17px;
+  }
+
+  .HM_4_teamImg {
+    width: 754.602px;
+    height: 495.505px;
+    flex-shrink: 0;
+
+    top: 264px;
+    z-index: 2;
+    border-radius: 100px;
+  }
+
+  .HM_4_learna {
+    position: absolute;
+    width: 359px;
+    height: 90px;
+    top: 650px;
+    z-index: 3;
+  }
+  .HM_4_learnBtn {
+    width: 359px;
+    height: 90px;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.89px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .HM_section4 {
+    min-height: 708px;
+    height: 708px;
+    width: 100%;
+
+    margin-bottom: 10px;
+  }
+
+  .HM_4_content {
+    max-width: 600px;
+    width: 100%;
+    height: 100%;
+  }
+  .HM_4_p1 {
+    width: 497px;
+    /* width: fit-content; */
+    height: 96px;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.6px;
+    top: 48px;
+  }
+
+  .HM_4_p2 {
+    width: 515px;
+    height: 80px;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 166.667% */
+    letter-spacing: 1.08px;
+  }
+
+  .HM_4_teamImg {
+    max-width: 600px;
+    width: 100%;
+    height: 393.986px;
+    flex-shrink: 0;
+
+    top: 264px;
+    z-index: 2;
+    border-radius: 100px;
+  }
+
+  .HM_4_learna {
+    position: absolute;
+    width: 350px;
+    height: 88px;
+    top: 550px;
+    z-index: 3;
+  }
+  .HM_4_learnBtn {
+    width: 350px;
+    height: 88px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.8px;
+  }
 }
