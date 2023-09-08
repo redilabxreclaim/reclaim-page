@@ -29,10 +29,15 @@
         <nav class='menu'>
             <ul class='menu-links'>
                 <?php foreach ($site->children()->listed() as $item): ?>
-                <li><a class='header-button' href="<?= $item->url() ?> "><?= $item->title() ?></a></li>
+                <li>
+                    <a class='header-button' href="<?= $item->url() ?>" id="<?= $item->id() ?>">
+                    <?= $item->title() ?>
+                    </a>
+                </li>
                 <?php endforeach ?>
             </ul>
         </nav>
+
     </header>
     <!-- <h1>trial</h1> -->
     <div class="main-container">
@@ -49,6 +54,9 @@
         'color2' => '#FFFFFF',]) ?>
     
     
+
+
+<?= js('../assets/js/index.js') ?>
 </body>
 
 </html>

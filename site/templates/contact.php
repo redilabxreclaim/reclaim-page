@@ -68,6 +68,8 @@
     </div>
     <?= $page->text() ?>
     <?php snippet('footer') ?>
+    
+    <?= js('../assets/js/index.js') ?>
 
 </body>
 

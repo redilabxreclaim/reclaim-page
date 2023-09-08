@@ -80,6 +80,12 @@ footer {
   border: 4px solid #4c6b5f;
   margin-right: 16px;
 }
+
+/* Style for the active button */
+.header-button.active {
+  background: #4C6B5F;
+  color: #fff;
+}
 .menu {
   width: 100%;
   display: flex;

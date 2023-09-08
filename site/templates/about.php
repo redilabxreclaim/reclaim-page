@@ -45,6 +45,9 @@
         <?php snippet('aboutPage/aboutPage_section4') ?>
     </div>
     <?php snippet('footer') ?>
+
+    <?= js('../assets/js/index.js') ?>
+
 </body>
 
 </html>

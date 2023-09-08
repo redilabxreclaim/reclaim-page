@@ -29,6 +29,3 @@
             <a class="projects_link" href="projects">See all projects</a>
 </div>  
 </section>
-
-
-<?= css('../assets/js/HomePage_section3.js') ?>
