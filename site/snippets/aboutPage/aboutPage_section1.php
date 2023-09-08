@@ -9,16 +9,15 @@
     <?php endif ?>
 
     <div class="rectangle_about_sec1">
-
     </div>
 
 
 
-    <p class="about_sec1_title">
+    <h3 class="about_sec1_title">
         <?= $page->section1_title() ?>
-    </p>
+    </h3>
     <p class="about_sec1_p1">
         <?= $page->section1_text1()->kt()->inline() ?>
-
     </p>
+
 </section>

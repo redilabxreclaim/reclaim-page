@@ -247,3 +247,9 @@ footer {
 .main-container {
   height: 4290px;
 }
+
+ /*Media queries*/
+ @media screen and (min-width: 1024px) {
+  .header {
+  }
+}

@@ -68,3 +68,10 @@
     font-size: 48px;
     color: #000;
   }
+
+  /*Media queries*/
+  @media screen and (min-width: 1024px) {
+  .foter {
+    width: 100%;
+  }
+}
