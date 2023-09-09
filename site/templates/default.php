@@ -31,7 +31,7 @@
                 <?php foreach ($site->children()->listed() as $item): ?>
                 <li>
                     <a class='header-button' href="<?= $item->url() ?>" id="<?= $item->id() ?>">
-                    <?= $item->title() ?>
+                        <?= $item->title() ?>
                     </a>
                 </li>
                 <?php endforeach ?>
@@ -40,23 +40,23 @@
 
     </header>
     <!-- <h1>trial</h1> -->
-    <div class="main-container">
-        <?php snippet('HomePage_section1') ?>
-        <?php snippet('HomePage_section2') ?>
-        <?php snippet('HomePage_section3') ?>
-        <?php snippet('HomePage_section4') ?>
-        <?php snippet('HomePage_section5') ?>
-    </div>
-    
-    
+    <!-- <div class="main-container"> -->
+    <?php snippet('HomePage_section1') ?>
+    <?php snippet('HomePage_section2') ?>
+    <?php snippet('HomePage_section3') ?>
+    <?php snippet('HomePage_section4') ?>
+    <?php snippet('HomePage_section5') ?>
+    <!-- </div> -->
+
+
     <?php snippet('footer' ,  [
         'color1' => '#C29DE8',
         'color2' => '#FFFFFF',]) ?>
-    
-    
 
 
-<?= js('../assets/js/index.js') ?>
+
+
+    <?= js('../assets/js/index.js') ?>
 </body>
 
 </html>
