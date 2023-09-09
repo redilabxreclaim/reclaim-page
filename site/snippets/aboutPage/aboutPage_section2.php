@@ -2,7 +2,7 @@
 
 
 
-<section class="about_section2">
+<section class="about_section2" id="how-we-are">
 
 
     <div class="whoweare_img_about_sec2_container">
