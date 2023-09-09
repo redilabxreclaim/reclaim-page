@@ -106,9 +106,11 @@ Model Data Protection Statement for Anwaltskanzlei Weiß & Partner";
 
         </div>
 
+
         <a style="color : <?= $color1?>;" class="foter_mail"
             href="mailto:reclaim@gmail.com">contact@reclaim-ecofeministalliance.org
         </a>
+
         <div class="foter_social">
             <!-- Facebook Icon -->
             <a href="https://www.facebook.com/people/Reclaim-Ecofeminist-Alliance/100091492013872/" target="_blank">

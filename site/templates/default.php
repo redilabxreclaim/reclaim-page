@@ -29,20 +29,34 @@
         <nav class='menu'>
             <ul class='menu-links'>
                 <?php foreach ($site->children()->listed() as $item): ?>
-                <li><a class='header-button' href="<?= $item->url() ?> "><?= $item->title() ?></a></li>
+                <li>
+                    <a class='header-button' href="<?= $item->url() ?>" id="<?= $item->id() ?>">
+                    <?= $item->title() ?>
+                    </a>
+                </li>
                 <?php endforeach ?>
             </ul>
         </nav>
+
     </header>
     <!-- <h1>trial</h1> -->
-    <?php snippet('HomePage_section1') ?>
-    <?php snippet('HomePage_section2') ?>
-    <?php snippet('HomePage_section3') ?>
-    <?php snippet('HomePage_section4') ?>
-    <?php snippet('HomePage_section5') ?>
+    <div class="main-container">
+        <?php snippet('HomePage_section1') ?>
+        <?php snippet('HomePage_section2') ?>
+        <?php snippet('HomePage_section3') ?>
+        <?php snippet('HomePage_section4') ?>
+        <?php snippet('HomePage_section5') ?>
+    </div>
+    
+    
     <?php snippet('footer' ,  [
         'color1' => '#C29DE8',
         'color2' => '#FFFFFF',]) ?>
+    
+    
+
+
+<?= js('../assets/js/index.js') ?>
 </body>
 
 </html>

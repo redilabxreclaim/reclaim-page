@@ -61,3 +61,30 @@
   left: 316px;
   color: var(--text_color_1);
 }
+
+/*Media queries*/
+@media screen and (max-width: 480px) {
+
+  .about_sec1_title {
+    width: 410px;
+    height: 96px;
+    font-size: 80px;
+  }
+
+  .about_sec1_p1 {
+      font-size: 24px;
+      width: 418px;
+  }
+
+  .foter, .about_section4, .about_section3, .about_section2, .about_section1, .aboutpage_snippestcontaiener {
+    width: 100%;
+  }
+  
+  .header {
+    width: 80%;
+  }
+
+  body {
+    width: fit-content;
+  }
+}

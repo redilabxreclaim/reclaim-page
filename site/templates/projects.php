@@ -230,6 +230,9 @@ snippet('projectsPage/oldProjects' ,  [
     <!-- </section> -->
 
     <?php snippet('footer' ) ?>
+
+    <?= js('../assets/js/index.js') ?>
+
 </body>
 
 </html>
