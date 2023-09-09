@@ -49,6 +49,7 @@
     <!-- section 1 finishes here-->
 
 
+    <?php snippet("projectsPage/project_section1") ?>
 
 
     <!-- <section class="old_rojects"> -->
