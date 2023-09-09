@@ -1,6 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;400;900;600&family=Dancing+Script:wght@500;600&display=swap");
 @import url("https://fonts.cdnfonts.com/css/aileron");
 
+.porjects_container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
 .ProjectPage-oldProjects {
   margin: 0;
   padding: 0;
@@ -16,7 +24,7 @@
 .oldprojects_title {
   /* width: 588px; */
   min-width: 588px;
-  max-width: fit-content;
+  max-width: 780px;
   height: 144px;
   /* border: 1px red solid; */
   display: flex;
@@ -31,14 +39,13 @@
   font-weight: 900;
   font-size: 120px;
   /* border: 1px red solid; */
- 
 }
 
 .oldprojects_title_part2 {
   margin: 0;
   padding: 0;
   min-width: 196px;
-  max-width: fit-content;
+  max-width: 500px;
   height: 60px;
   font-family: "aileron";
   font-weight: 600;
@@ -52,9 +59,9 @@
 .oldprojects_container {
   margin: 0;
   padding: 0;
-
+  /* width: fit-content; */
   display: flex;
-  height: fit-content;
+  height: 644px;
   align-items: flex-start;
   justify-content: space-between;
   width: 100%;
@@ -72,13 +79,12 @@
   align-items: flex-start;
   justify-content: space-between;
   margin-top: 0px;
-  color: #4C6B5F;
+  color: #4c6b5f;
 }
 
 .oldprojects_headline p {
   margin: 0;
   padding: 0;
-  width: fit-content;
   width: 651px;
   height: 72x;
   font-family: "Barlow Condensed";
@@ -93,7 +99,7 @@
   font-family: "aileron";
   font-weight: 400;
   font-size: 24px;
-  color: #4C6B5F;
+  color: #4c6b5f;
 }
 
 .oldprojects_btn {
@@ -105,7 +111,7 @@
   font-size: 46px;
   /* top: 640px; */
   background-color: inherit;
-  border: 8px  solid;
+  border: 8px solid;
   border-radius: 100px;
   /* padding: 20px 80px; */
   z-index: 3;
@@ -114,22 +120,21 @@
 .oldprojects_btn {
   position: relative;
   display: flex;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
   color: white;
   /* margin-left: 50px; */
   padding-right: 100px;
-  transition: width  .5s,margin-left .5s;
+  transition: width 0.5s, margin-left 0.5s;
 }
-
 
 .oldprojects_btn::after {
   content: "\f2c6"; /* this is the unicode for the Telegram icon in Font Awesome */
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
   font-size: 64px; /* Adjust as needed */
   position: absolute;
   right: 100px;
-  color: #2AABEE;
+  color: #2aabee;
   background-color: white;
   border-radius: 50%; /* This makes it round */
   width: 40px; /* Adjust as needed */
@@ -139,9 +144,7 @@
   justify-content: center;
   text-align: center;
   opacity: 0;
-  
 }
-
 
 .oldprojects_btn::before {
   content: attr(data-hover-text2);
@@ -151,22 +154,15 @@
   opacity: 1;
   transition: opacity 0.3s;
   color: black;
-  color: #4C6B5F;
-
+  color: #4c6b5f;
 }
 
 .oldprojects_btn:hover::before {
-    opacity: 0;
-  }
+  opacity: 0;
+}
 .oldprojects_btn:hover::after {
   opacity: 1;
 }
-
-
-@keyframes shrink {
-  100%   {width: 420px;}
-}
-
 
 .oldprojects_btn:hover {
   background-color: red;
@@ -184,6 +180,247 @@ img {
   border-radius: 100px;
 }
 
-.telegram_a{
+.telegram_a {
   text-decoration: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .porjects_container {
+    width: 100vw;
+  }
+
+  .ProjectPage-oldProjects {
+    max-width: 992px;
+    width: 100%;
+    /* border: 1px red solid; */
+    /* margin: 0; */
+    padding: 10px;
+    height: 650px;
+  }
+
+  .oldprojects_title {
+    /* min-width: 140px; */
+    width: 650px;
+    height: 150px;
+  }
+  .oldprojects_title_part1 {
+    width: 380px;
+    height: 144px;
+
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 6px;
+  }
+
+  .oldprojects_title_part2 {
+    /* min-width: 196px; */
+    width: 280px;
+    height: 60px;
+
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -3.25px;
+    margin-left: 50px;
+    bottom: 13px;
+  }
+
+  .oldprojects_container {
+    margin-top: 0px;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .oldprojects_text_btn {
+    width: 450px;
+    /* min-height: fit-content; */
+    height: 450px;
+    min-height: 400px;
+    /* border: 1px red solid; */
+    margin-top: 20px;
+  }
+
+  .oldprojects_headline p {
+    width: 476px;
+    /* width: 401px; */
+    height: 60px;
+
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.1px;
+  }
+
+  .oldprojects_dis p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 149%; /* 35.76px */
+  }
+
+  .oldprojects_btn {
+    /* position: absolute; */
+    width: 347px;
+    height: 85px;
+
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.07px;
+  }
+
+  .oldprojects_btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* margin-left: 50px; */
+    padding-right: 100px;
+    transition: width 0.5s, margin-left 0.5s;
+  }
+
+  .oldprojects_img,
+  img {
+    width: 480px;
+    height: 360px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    margin-top: 20px;
+  }
+
+  .oldprojects_btn::before {
+    left: 60px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .porjects_container {
+    width: 100vw;
+    /* border: 1px red solid; */
+  }
+
+  .ProjectPage-oldProjects {
+    max-width: 992px;
+    width: 100%;
+    /* border: 1px red solid; */
+    /* margin: 0; */
+    padding: 10px;
+    height: 1000px;
+    justify-content: flex-start;
+  }
+
+  .oldprojects_title {
+    min-width: 140px;
+    width: 400px;
+    height: 96px;
+  }
+  .oldprojects_title_part1 {
+    width: 280px;
+    height: 96px;
+
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 4px;
+    /* border: 1px red solid; */
+  }
+
+  .oldprojects_title_part2 {
+    /* min-width: 196px; */
+    width: 118px;
+    height: 36px;
+
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.95px;
+    margin-left: 55px;
+    bottom: 13px;
+  }
+
+  .oldprojects_container {
+    margin-top: 0px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column-reverse !important;
+  }
+  .oldprojects_text_btn {
+    width: 100%;
+    /* min-height: fit-content; */
+    height: 450px;
+    min-height: 400px;
+    /* border: 1px red solid; */
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  .oldprojects_headline p {
+    width: 100%;
+    /* width: 401px; */
+    height: 48px;
+
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    margin-top: 44px;
+  }
+
+  .oldprojects_dis p {
+    width: 420px;
+    height: 360px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 149%; /* 35.76px */
+    margin-top: 34px;
+  }
+
+  .oldprojects_btn {
+    /* position: absolute; */
+    width: 347px;
+    height: 85px;
+
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.07px;
+    margin-top: 14px;
+  }
+
+  .oldprojects_btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* margin-left: 50px; */
+    padding-right: 100px;
+    transition: width 0.5s, margin-left 0.5s;
+  }
+
+  .oldprojects_img,
+  img {
+    width: 420px;
+    height: 320px;
+    flex-shrink: 0;
+
+    border-radius: 100px;
+    margin-top: 44px;
+  }
+
+  .oldprojects_btn::before {
+    left: 60px;
+  }
 }

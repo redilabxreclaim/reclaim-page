@@ -38,19 +38,29 @@
     </header>
     <?= $page->text() ?>
     <!-- section 1 starts here-->
-    <h1 class='projects-section1-h1'>OUR PROJECTS</h1>
+    <!-- <h1 class='projects-section1-h1'>OUR PROJECTS</h1>
     <p class='projects-section1-p'>Through a range of diverse projects, we are dedicated to promoting environmental
         sustainability, social justice, and the empowerment of all beings. We invite you to explore our activities and
         find the ones that resonate with you.</p>
-    <hr style=" border-top: 3px #4C6B5F solid;width:1300px">
+    <hr style=" border-top: 3px #4C6B5F solid;width:1300px"> -->
+
+
+
     <!-- section 1 finishes here-->
-    <section class="old_rojects">
 
-        <!-- RECLAIM THE SOIL project -->
 
-        <div id="reclaim-the-soil">
 
-            <?php 
+
+    <!-- <section class="old_rojects"> -->
+
+
+
+
+    <!-- RECLAIM THE SOIL project -->
+
+    <div id="reclaim-the-soil">
+
+        <?php 
     $title = $page->Project1_title()->value(); 
     $headLine = $page->Project1_headline()->value(); 
     $description = $page->Project1_description()->value(); 
@@ -69,13 +79,13 @@
         'telegramLink' =>  'https://t.me/+_rt2soX25kE2NWFk' 
     ]); ?>
 
-        </div>
+    </div>
 
 
-        <!-- RECLAIM LITERATURE project -->
-        <div id="reclaim-literature">
+    <!-- RECLAIM LITERATURE project -->
+    <div id="reclaim-literature">
 
-            <?php 
+        <?php 
     $title = $page->Project2_title()->value(); 
     $headLine = $page->Project2_headline()->value(); 
     $description = $page->Project2_description()->value(); 
@@ -96,16 +106,16 @@
         'titleShift' => '-72px'
         ]); ?>
 
-        </div>
+    </div>
 
 
 
-        <!-- RECLAIM POLITICS project -->
+    <!-- RECLAIM POLITICS project -->
 
 
-        <div id="reclaim-politics">
+    <div id="reclaim-politics">
 
-            <?php 
+        <?php 
 $title = $page->Project3_title()->value(); 
 $headLine = $page->Project3_headline()->value(); 
 $description = $page->Project3_description()->value(); 
@@ -126,15 +136,15 @@ snippet('projectsPage/oldProjects' ,  [
 'titleShift' => '-72px'
 ]); ?>
 
-        </div>
+    </div>
 
 
-        <!-- RECLAIM WORDS project -->
+    <!-- RECLAIM WORDS project -->
 
 
-        <div id="reclaim-words">
+    <div id="reclaim-words">
 
-            <?php 
+        <?php 
 $title = $page->Project4_title()->value(); 
 $headLine = $page->Project4_headline()->value(); 
 $description = $page->Project4_description()->value(); 
@@ -155,16 +165,16 @@ snippet('projectsPage/oldProjects' ,  [
 'titleShift' => '-70px'
 ]); ?>
 
-        </div>
+    </div>
 
 
 
-        <!-- RECLAIM THE STREETS project -->
+    <!-- RECLAIM THE STREETS project -->
 
 
-        <div id="reclaim-the-streets">
+    <div id="reclaim-the-streets">
 
-            <?php 
+        <?php 
 $title = $page->Project5_title()->value(); 
 $headLine = $page->Project5_headline()->value(); 
 $description = $page->Project5_description()->value(); 
@@ -185,15 +195,15 @@ snippet('projectsPage/oldProjects' ,  [
 'titleShift' => '-80px'
 ]); ?>
 
-        </div>
+    </div>
 
 
 
-        <!-- RECLAIM IT ALL project -->
+    <!-- RECLAIM IT ALL project -->
 
-        <div id="reclaim-it-all">
+    <div id="reclaim-it-all">
 
-            <?php 
+        <?php 
 $title = $page->Project6_title()->value(); 
 $headLine = $page->Project6_headline()->value(); 
 $description = $page->Project6_description()->value(); 
@@ -214,9 +224,9 @@ snippet('projectsPage/oldProjects' ,  [
 'titleShift' => '-71px'
 ]); ?>
 
-        </div>
+    </div>
 
-    </section>
+    <!-- </section> -->
 
     <?php snippet('footer' ) ?>
 </body>

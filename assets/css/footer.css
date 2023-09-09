@@ -65,6 +65,132 @@
 }
 
 .foter_social i {
+  font-size: 48px;
+  color: #000;
+}
+
+@media only screen and (max-width: 992px) {
+  .foter {
+    width: 100%;
+    height: 282px;
+  }
+  .foter_container {
+    width: 100%;
+    height: 282px;
+align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .foter_data {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 24px;
+    flex-direction: column;
+    margin-left: 32px;
+    margin-top: 28px;
+  }
+  .foter_data a {
+    color: #000;
+    font-family: "Barlow Condensed";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+  }
+
+  .foter_mail {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.17px;
+    margin-left: 32px;
+    /* margin-top: 27px; */
+  }
+
+  .foter_social {
+    display: inline-flex;
+    padding: 14px;
+    align-items: flex-start;
+    gap: 35px;
+    margin-right: 0px;
+    width:325px;
+    margin-left: 32px;
+    margin-bottom: 28px;
+  }
+  .foter_social a {
+    width: 48px;
+    height: 48px;
+
+  }
+
+  .foter_social i {
     font-size: 48px;
     color: #000;
   }
+}
+@media only screen and (max-width: 600px) {
+
+  .foter {
+    width: 100%;
+    height: 286px;
+  }
+  .foter_container {
+    width: 100%;
+    height: 286px;
+align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .foter_data {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 24px;
+    flex-direction: column;
+    margin-left: 32px;
+    margin-top: 28px;
+  }
+  .foter_data a {
+    color: #000;
+    font-family: "Barlow Condensed";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+  }
+
+  .foter_mail {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.17px;
+    margin-left: 32px;
+    /* margin-top: 27px; */
+  }
+
+  .foter_social {
+    display: inline-flex;
+    padding: 14px;
+    align-items: flex-start;
+    gap: 35px;
+    margin-right: 0px;
+    width:325px;
+    margin-left: 32px;
+    margin-bottom: 28px;
+  }
+  .foter_social a {
+    width: 48px;
+    height: 48px;
+
+  }
+
+  .foter_social i {
+    font-size: 48px;
+    color: #000;
+  }
+}

@@ -15,11 +15,13 @@ $color2 = $color2 ?? '#C29DE8';
     <div class="foter_container">
 
         <div class="foter_data">
-            <a href="">Imprint</a>
+            <a target="_blank"
+                href="https://docs.google.com/document/d/1ht-6EK2OEwUEt1aBITTiYzk6k7MUtw0CMiNYknhd7Mo/edit?usp=drive_link">Imprint</a>
             <a href="">Privacy Policy</a>
         </div>
 
-        <a style="color : <?= $color1?>;" class="foter_mail" href="mailto:reclaim@gmail.com">reclaim@gmail.com</a>
+        <a style="color : <?= $color1?>;" class="foter_mail"
+            href="mailto:reclaim@gmail.com">contact@reclaim-ecofeministalliance.org</a>
         <div class="foter_social">
             <!-- Facebook Icon -->
             <a href="https://www.facebook.com/people/Reclaim-Ecofeminist-Alliance/100091492013872/" target="_blank">
