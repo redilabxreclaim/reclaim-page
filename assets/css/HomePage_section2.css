@@ -172,13 +172,15 @@
     padding: 0;
     /* width: 592px; */
     width: calc(100% * 750 / 992);
+    width: 100%;
+
     /* width: 100%; */
     min-height: 48px;
     height: auto;
     /* height: calc(100% * 48 / 992); */
     font-size: 40px;
     top: 22px;
-    margin-top: calc(100% * 22 / 992);
+    margin-top: calc(100% * 10 / 992);
     color: var(--sec2FontColor);
     /* color: red; */
   }
@@ -194,8 +196,9 @@
     font-size: 84px;
     /* top: 120px; */
     width: calc(100% * 700 / 992);
+    width: 100%;
 
-    margin-top: calc(100% * 30 / 992);
+    margin-top: calc(100% * 15 / 992);
 
     color: var(--sec2FontColor);
 
@@ -213,16 +216,17 @@
     /* top: 260px; */
     color: var(--sec2FontColor);
     width: calc(100% * 400 / 992);
+    width: 100%;
 
-    margin-top: calc(100% * 50 / 992);
+    margin-top: calc(100% * 15 / 992);
 
   }
   
   .learnBtn {
     /* position: static; */
 
-    width: 366px;
-    height: 90px;
+    width: 346px;
+    height: 80px;
     font-size: 42px;
     /* top: 400px; */
     color: var(--sec2FontColor);
@@ -231,7 +235,7 @@
     border-radius: 100px;
     /* width: calc(100% * 400 / 992); */
 
-    top: calc(100% * 770 / 992);
+    top: calc(100% * 750 / 992);
   }
   
   .learnBtn:hover{
