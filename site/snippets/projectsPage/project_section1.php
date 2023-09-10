@@ -1,7 +1,10 @@
     <?= css('../assets/css/projectsPage/project_section1.css') ?>
     <section class="project_sec1">
         <div class="project_sec1_container">
-            <img class="imgsec1_pro" src="projects/ProjectSection1.png" alt="">
+            <!-- <div class="imgsec1_pro_container">
+
+                <img class="imgsec1_pro" src="projects/ProjectSection1.png" alt="">
+            </div> -->
 
             <div class="project_sec1_container_data">
 

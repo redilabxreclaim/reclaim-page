@@ -6,9 +6,12 @@
   padding: 0;
   width: 100%;
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   justify-content: center;
+ 
+    /* padding: 10px; */
 }
+
 .ProjectPage-oldProjects {
   margin: 0;
   padding: 0;
@@ -185,13 +188,17 @@ img {
 }
 
 @media only screen and (max-width: 992px) {
-  .porjects_container {
+  .porjects_container{
     width: 100vw;
+    margin-bottom: 20px;
+
   }
 
+  
   .ProjectPage-oldProjects {
     max-width: 992px;
     width: 100%;
+    /* width: 100%; */
     /* border: 1px red solid; */
     /* margin: 0; */
     padding: 10px;
@@ -200,7 +207,7 @@ img {
 
   .oldprojects_title {
     /* min-width: 140px; */
-    width: 650px;
+    width: 630px;
     height: 150px;
   }
   .oldprojects_title_part1 {
@@ -235,18 +242,20 @@ img {
     width: 100%;
   }
   .oldprojects_text_btn {
-    width: 450px;
+    width: 48%;
     /* min-height: fit-content; */
-    height: 450px;
-    min-height: 400px;
+    min-height: 450px;
+    height: auto;
+    /* min-height: 400px; */
     /* border: 1px red solid; */
     margin-top: 20px;
   }
 
   .oldprojects_headline p {
-    width: 476px;
+    width: 100%;
     /* width: 401px; */
-    height: 60px;
+    min-height: 60px;
+    height: auto;
 
     font-size: 40px;
     font-style: normal;
@@ -264,7 +273,7 @@ img {
 
   .oldprojects_btn {
     /* position: absolute; */
-    width: 347px;
+    width: 310px;
     height: 85px;
 
     font-size: 36px;
@@ -285,46 +294,72 @@ img {
     transition: width 0.5s, margin-left 0.5s;
   }
 
-  .oldprojects_img,
-  img {
-    width: 480px;
-    height: 360px;
+  .oldprojects_btn:hover {
+    background-color: red;
+    color: white;
+    width: 300px;
+    margin-left: 0px;
+    /* animation: shrink 1s 0s 1 ; */
+    /* timing-function delay iteration-count direction fill-mode; */
+  }
+
+  .oldprojects_img{
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .oldprojects_img img {
+    width: 100%;
+    height: auto;
     flex-shrink: 0;
     border-radius: 100px;
-    margin-top: 20px;
+    margin: 0;
   }
 
   .oldprojects_btn::before {
-    left: 60px;
+    left: 35px;
   }
+
+  .oldprojects_btn::after {
+  
+    right: 50px;
+  
+  }
+  
 }
 
 @media only screen and (max-width: 600px) {
   .porjects_container {
     width: 100vw;
     /* border: 1px red solid; */
+    box-sizing: border-box;
   }
 
   .ProjectPage-oldProjects {
-    max-width: 992px;
+    max-width: 600px;
     width: 100%;
     /* border: 1px red solid; */
     /* margin: 0; */
     padding: 10px;
-    height: 1000px;
-    justify-content: flex-start;
+    min-height: 1000px;
+    height: auto;
+    justify-content: center;
+    align-items: flex-start;
   }
 
   .oldprojects_title {
     min-width: 140px;
-    width: 400px;
+    width: 300px;
     height: 96px;
+    /* text-align: left; */
+    /* flex-wrap: wrap; */
   }
   .oldprojects_title_part1 {
     width: 280px;
     height: 96px;
 
-    font-size: 80px;
+    font-size: 76px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
@@ -334,16 +369,17 @@ img {
 
   .oldprojects_title_part2 {
     /* min-width: 196px; */
-    width: 118px;
+    width: 90px;
     height: 36px;
 
-    font-size: 30px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     letter-spacing: -1.95px;
-    margin-left: 55px;
-    bottom: 13px;
+    margin-left: 58px;
+    bottom: 11px;
+    flex-wrap: wrap;
   }
 
   .oldprojects_container {
@@ -352,22 +388,25 @@ img {
     justify-content: center;
     width: 100%;
     flex-direction: column-reverse !important;
+    height: auto;
   }
   .oldprojects_text_btn {
+    /* min-width: auto; */
     width: 100%;
     /* min-height: fit-content; */
-    height: 450px;
-    min-height: 400px;
+    height: auto;
+    min-height: 450px;
     /* border: 1px red solid; */
     margin-top: 20px;
     align-items: center;
+
   }
 
   .oldprojects_headline p {
-    width: 100%;
+    width: auto;
     /* width: 401px; */
-    height: 48px;
-
+    min-height: 48px;
+height: auto;
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
@@ -377,8 +416,9 @@ img {
   }
 
   .oldprojects_dis p {
-    width: 420px;
-    height: 360px;
+    width: auto;
+    min-height: 360px;
+    height: auto;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -409,15 +449,18 @@ img {
     padding-right: 100px;
     transition: width 0.5s, margin-left 0.5s;
   }
-
-  .oldprojects_img,
-  img {
-    width: 420px;
-    height: 320px;
+  .oldprojects_img{
+    width: 100%;
+    height: auto;
+   
+  }
+  .oldprojects_img img {
+    width: 100%;
+    height: auto;
     flex-shrink: 0;
 
     border-radius: 100px;
-    margin-top: 44px;
+    /* margin-top: 44px; */
   }
 
   .oldprojects_btn::before {
