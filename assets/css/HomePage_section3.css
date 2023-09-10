@@ -134,18 +134,27 @@ a.projects_link:active {
 @media only screen and (max-width: 992px) {
   .section3 {
     width: 100%;
-    height: 793px;
+    min-height: 793px;
+    height: auto;
   }
   .section-three {
     background-color: #4c6b5f;
     max-width: 992px;
     width: 100%;
-    height: 793px;
+    min-height: 793px;
+    height: auto;
   }
 
   .our-projects {
     font-size: 90px;
     letter-spacing: 4.05px;
+    /* width: calc(100% * 400/ 600); */
+
+  }
+  .projects{
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 10px;
   }
 
   h3 {
@@ -195,6 +204,7 @@ a.projects_link:active {
   }
   a.projects_link {
     font-size: 40px;
+    position: static;
   }
 
  

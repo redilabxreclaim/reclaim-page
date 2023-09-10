@@ -1,0 +1,45 @@
+
+@media only screen and (max-width:992px) {
+    .header{
+        height: auto;
+    }
+
+}
+@media only screen and (max-width:600px) {
+
+    .header{
+        height: auto;
+    }
+    .menu{
+        width: 210px;
+    }
+    .menu-links{
+        padding: 0;
+        margin: 0;
+    }
+    .menu-links{
+        padding: 0;
+    }
+    .header-button{
+        padding: 8px 16px;
+    }
+    }
+    
+    @media only screen and (max-width:400px) {
+        .header{
+            flex-direction: column;
+            height: auto;
+        }
+        .logo-div{
+            width: 100%;
+    
+        }
+        .menu{
+            width: 100%;
+    
+        }
+        
+        }
+        
+    
+    

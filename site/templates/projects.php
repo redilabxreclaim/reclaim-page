@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $site->title() ?></title>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
-    <?= css(['../assets/css/index.css','../assets/css/projectsPage/projects.css']) ?>
+    <?= css(['../assets/css/index.css','../assets/css/projectsPage/projects.css' , "../assets/css/navReasponsive.css"]) ?>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
@@ -20,10 +20,20 @@
                 <img src="<?= $page->image('pagesLogo.jpg')->url() ?>" alt="Logo" class="logo-image">
             </a>
         </div>
+
+
         <nav class='menu'>
             <ul class='menu-links'>
                 <?php foreach ($site->children()->listed() as $item): ?>
+
+
+
+
                 <?php 
+                
+                 if ($item->title()->value() == 'CONTACT') {
+                    continue;
+                }
        
         $currentURL = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
         $isActive = ($currentURL === 'http://localhost:8888/projects' && $item->url() == $currentURL);
@@ -34,20 +44,14 @@
                 </li>
                 <?php endforeach ?>
             </ul>
+
+
+
+
         </nav>
+
     </header>
     <?= $page->text() ?>
-    <!-- section 1 starts here-->
-    <!-- <h1 class='projects-section1-h1'>OUR PROJECTS</h1>
-    <p class='projects-section1-p'>Through a range of diverse projects, we are dedicated to promoting environmental
-        sustainability, social justice, and the empowerment of all beings. We invite you to explore our activities and
-        find the ones that resonate with you.</p>
-    <hr style=" border-top: 3px #4C6B5F solid;width:1300px"> -->
-
-
-
-    <!-- section 1 finishes here-->
-
 
     <?php snippet("projectsPage/project_section1") ?>
 
