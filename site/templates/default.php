@@ -13,7 +13,7 @@
         href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Barlow:wght@400;700&family=Overpass:wght@100&family=Roboto:wght@400;700&family=Rubik:ital@1&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <?= css('../assets/css/index.css') ?>
+    <?= css(['../assets/css/index.css', "../assets/css/navReasponsive.css"]) ?>
 </head>
 
 <body>
@@ -28,7 +28,11 @@
         </div>
         <nav class='menu'>
             <ul class='menu-links'>
-                <?php foreach ($site->children()->listed() as $item): ?>
+                <?php foreach ($site->children()->listed() as $item):
+                if ($item->title()->value() == 'CONTACT') {
+                    continue;
+                }
+                    ?>
                 <li>
                     <a class='header-button' href="<?= $item->url() ?>" id="<?= $item->id() ?>">
                         <?= $item->title() ?>

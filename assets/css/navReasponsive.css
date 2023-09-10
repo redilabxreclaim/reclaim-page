@@ -1,4 +1,15 @@
+
+@media only screen and (max-width:992px) {
+    .header{
+        height: auto;
+    }
+
+}
 @media only screen and (max-width:600px) {
+
+    .header{
+        height: auto;
+    }
     .menu{
         width: 210px;
     }
