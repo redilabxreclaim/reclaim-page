@@ -63,28 +63,44 @@
 }
 
 /*Media queries*/
-@media only screen and (max-width: 480px) {
+/* Define a breakpoint for small devices */
+@media (max-width: 768px) {
+  .about_section1 {
+    width: 100%; /* Make the container full-width */
+    height: auto; /* Allow height to adjust based on content */
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+
+  .elop_img_about_sec1 {
+    width: 100%; /* Make the image full-width */
+    height: auto; /* Allow height to adjust based on content */
+    position: relative; /* Reset positioning */
+    left: auto; /* Reset left position */
+    rotate: -10deg;
+    height: 653px;
+    width: 603px;
+  }
+
+  .rectangle_about_sec1 {
+    width: 100%; /* Make the rectangle full-width */
+    height: auto; /* Allow height to adjust based on content */
+    position: relative; /* Reset positioning */
+    top: auto; /* Reset top position */
+    border-radius: 0; /* Remove border-radius */
+  }
 
   .about_sec1_title {
-    width: 410px;
-    height: 96px;
     font-size: 80px;
+    top: 100px;
+    height: 96px;
+    width: 410px;
+    left: 10%;
   }
 
   .about_sec1_p1 {
-      font-size: 24px;
-      width: 418px;
-  }
-
-  .foter, .about_section4, .about_section3, .about_section2, .about_section1, .aboutpage_snippestcontaiener {
-    width: 100%;
-  }
-  
-  .header {
-    width: 80%;
-  }
-
-  body {
-    width: fit-content;
+    width: 100%; /* Make the paragraph full-width */
+    font-size: 24px; /* Adjust font size for smaller screens */
+    left: auto; /* Reset left position */
+    margin: 1rem;
   }
 }

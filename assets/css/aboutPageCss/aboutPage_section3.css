@@ -86,3 +86,40 @@
   align-items: center;
   justify-content: space-between;
 }
+
+/*Media queries */
+
+@media only screen and (max-width: 768px) {
+  .about_section3 {
+    width: 100%;
+  }
+
+  .about_section3_title {
+    left: 80px;
+  }
+
+  .about_section3_text {
+    font-size: 24px;
+    left: 80px;
+    line-height: 35px;
+    row-gap: 1.5em;
+    justify-content: normal;
+  }
+
+  .img_about_sec32 {
+    display: none;
+  }
+
+  .whoweare_img_about_sec3_container {
+    position: relative;
+    top: 80%;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  .img_about_sec3 {
+    width: 100%;
+    height: auto;
+  }
+}

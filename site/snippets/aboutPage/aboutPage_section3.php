@@ -3,25 +3,14 @@
 
 
 <section class="about_section3">
+<h3 class="about_section3_title">
 
+<?= $page->section3_title() ?>
 
-    <div class="whoweare_img_about_sec3_container">
+</h3>
 
-        <?php if($image = $page->image('Section3What.svg')): ?>
-        <img class="img_about_sec32" src="<?= $image->url() ?>" alt="">
-        <?php endif ?>
-        <?php if($image = $page->image('Section3Picture.JPG')): ?>
-        <img class="img_about_sec3" src="<?= $image->url() ?>" alt="">
-        <?php endif ?>
-    </div>
-
-    <p class="about_section3_title">
-
-        <?= $page->section3_title() ?>
-
-    </p>
+    
     <article class="about_section3_text">
-
 
         <p class="about_section3_p_normal">
             <?= $page->section3_text11()->kt()->inline() ?>
@@ -44,9 +33,16 @@
             <?= $page->section3_text5()->kt()->inline() ?>
 
         </p>
-
-
-
     </article>
+
+    <div class="whoweare_img_about_sec3_container">
+
+        <?php if($image = $page->image('Section3What.svg')): ?>
+        <img class="img_about_sec32" src="<?= $image->url() ?>" alt="">
+        <?php endif ?>
+        <?php if($image = $page->image('Section3Picture.JPG')): ?>
+        <img class="img_about_sec3" src="<?= $image->url() ?>" alt="">
+        <?php endif ?>
+    </div>
 
 </section>

@@ -4,19 +4,13 @@
 
 <section class="about_section2" id="how-we-are">
 
-
-    <div class="whoweare_img_about_sec2_container">
-
-        <?php if($image = $page->image('reclaim-team.jpg')): ?>
-        <img class="whoweare_img_about_sec2" src="<?= $image->url() ?>" alt="">
-        <?php endif ?>
-    </div>
-
-    <p class="about_section2_title">
+    <h3 class="about_section2_title">
 
         <?= $page->section2_title() ?>
 
-    </p>
+    </h3>
+
+    
     <article class="about_section2_text">
 
 
@@ -42,8 +36,13 @@
 
         </p>
 
-
-
     </article>
+
+    <div class="whoweare_img_about_sec2_container">
+
+        <?php if($image = $page->image('reclaim-team.jpg')): ?>
+        <img class="whoweare_img_about_sec2" src="<?= $image->url() ?>" alt="">
+        <?php endif ?>
+    </div>
 
 </section>

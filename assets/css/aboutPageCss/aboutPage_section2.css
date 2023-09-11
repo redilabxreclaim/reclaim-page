@@ -72,3 +72,41 @@
 .about_section2_p_bold {
   font-weight: 700;
 }
+
+@media only screen and (max-width: 768px) {
+  .about_section2 {
+    height: 1200px;
+    width: 100%;
+  }
+
+  .about_section2_title {
+    font-size: 80px;
+  }
+
+  .about_section2_text {
+    width: 100%;
+    font-size: 24px;
+}
+
+.whoweare_img_about_sec2_container {
+  width: 100%;
+  position: relative;
+  height: fit-content;
+  left: 5%;
+  top: 70%;
+  background-color: transparent;
+}
+
+.whoweare_img_about_sec2 {
+  width: 100%;
+  height: auto;
+  position: initial;
+}
+
+.about_section2_text {
+  justify-content: flex-start;
+  row-gap: 1.5em;
+}
+  }
+
+  
