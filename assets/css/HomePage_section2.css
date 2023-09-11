@@ -331,7 +331,7 @@
      margin-top: calc(100% * -15 / 600);
    }
    .learnBtn {
-     width: 130px;
+     width: 150px;
      /* width: calc(100% * 250/ 600); */
 
      height: 40px;
@@ -345,11 +345,6 @@
 
    }
    
-   /* Style the link and its container */
-   #link-btn {
- 
-     font-size: 30px;
-   }
    
 
 }
