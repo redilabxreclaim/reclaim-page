@@ -60,7 +60,7 @@ Our activities include:
 
 ----
 
-Section3-text5: (link: contact text: Write to us)  if you want to join a project!
+Section3-text5: Write to us  if you want to join a project!
 
 ----
 
