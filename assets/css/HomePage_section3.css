@@ -67,7 +67,8 @@ h3 {
   border: 6px solid #c29de8;
   padding: 0px 24px 24px 24px;
   width: 330px;
-  height: 549px;
+  min-height: 549px;
+  height: auto;
   transition: transform 0.3s;
 }
 

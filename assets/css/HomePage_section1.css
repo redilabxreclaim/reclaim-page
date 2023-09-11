@@ -111,13 +111,13 @@
   margin: 0;
 }
 
-.learn-more:hover {
+.Home-page-sec1-learn-more:hover {
   background: #c29de8;
   color: #ffffff;
   cursor: pointer;
 }
 
-.learn-more:active {
+.Home-page-sec1-learn-more:active {
   background: #ae73ea;
   border: 8px solid #ae73ea;
 }
