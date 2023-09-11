@@ -312,7 +312,7 @@
      font-size: 50px;
      /* top: 60px; */
     width: calc(100% * 600 / 600);
-    margin-top: calc(100% * -10 / 600);
+    margin-top: calc(100% * -20 / 600);
 
 
  
@@ -328,20 +328,20 @@
      color: var(--sec2FontColor);
      width: calc(100% * 400/ 600);
 
-     margin-top: calc(100% * -10 / 600);
+     margin-top: calc(100% * -15 / 600);
    }
    .learnBtn {
-     width: 150px;
+     width: 130px;
      /* width: calc(100% * 250/ 600); */
 
-     height: 60px;
+     height: 40px;
      font-size: 20px;
      /* top: 240px; */
      color: var(--sec2FontColor);
      background-color: transparent;
-     border: 8px var(--sec2FontColor) solid;
+     border: 3px var(--sec2FontColor) solid;
      border-radius: 100px;
-    top: calc(100% * 770 / 992);
+    top: calc(100% * 700 / 992);
 
    }
    
