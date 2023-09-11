@@ -127,7 +127,14 @@
 }
 
 /*Media queries*/
-
+@media only screen and (min-width: 992px) {
+  .home-reclaim-logo {    
+    top: -50px;
+    width: 645px;
+    height: 600px;
+    left: 690px;
+  }
+}
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
   .home-section-one_container {
@@ -147,7 +154,7 @@
     width: 808px;
     height: auto;
     right: -180px;
-    /* top: -100px; */
+    /*top: -100px; */    
     width: calc(100% * 808 / 992);
     right: calc(100% * 180 / 992 * -1);
     top: calc(100% * 100 / 724 * -1);
