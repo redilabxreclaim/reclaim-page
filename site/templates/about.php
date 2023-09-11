@@ -21,8 +21,10 @@
         </div>
         <nav class='menu'>
             <ul class='menu-links'>
-                <?php foreach ($site->children()->listed() as $item): ?>
-                <?php 
+                <?php foreach ($site->children()->listed() as $item): if ($item->title()->value() == 'CONTACT') {
+                    continue;
+                }?>
+                <?php  
        
         $currentURL = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
         $isActive = ($currentURL === 'http://localhost:8888/About' && $item->url() == $currentURL);
