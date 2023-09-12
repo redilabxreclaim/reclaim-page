@@ -7,7 +7,7 @@
     <div class="about_section4_container">
 
         <div class="about_sec4_title">
-            <h3>THEY HELP US CREATE...</h3>
+            <h3 class="about_sec4_title">THEY HELP US CREATE...</h3>
         </div>
         <div class="about_sec4_logos">
             <?php if($image = $page->image('Copy of elephantes_logo.jpg')): ?>

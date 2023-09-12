@@ -109,4 +109,23 @@
 }
   }
 
+/*Extra small devices*/
+@media only screen and (max-width: 395px) {
+  .about_section2 {
+    text-align: center;
+  }
+
+  .about_section2_title {
+    width: 100%;
+    left: 0;
+  }
+
+  .about_section2_text {
+    left: 0;
+  }
+
+  .whoweare_img_about_sec2_container {
+    top: 80%;
+  }
+}
   

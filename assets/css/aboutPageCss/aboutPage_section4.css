@@ -222,3 +222,32 @@
     height: 1000px;
   }
 }
+
+/*Extra small devices*/
+@media only screen and (max-width: 395px) {
+  .about_section4 {
+    margin: 0;
+  }
+
+  .about_sec4_logos {
+    gap: 20px;
+  }
+
+  .img_about_reditxt {
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .about_section4_container {
+    text-align: left;
+  }
+
+  .about_section4 {
+    height: 1800px;
+  }
+
+  .about_se4_links_container {
+    gap: 45px;
+  }
+}
