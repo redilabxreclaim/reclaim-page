@@ -62,8 +62,8 @@
   color: var(--text_color_1);
 }
 
-/*Media queries*/
-/* Define a breakpoint for small devices */
+/*Media queries*/ 
+/* Define a breakpoint for small devices*/
 @media only screen and (max-width: 768px) {
   .about_section1 {
     width: 100%; /* Make the container full-width */
