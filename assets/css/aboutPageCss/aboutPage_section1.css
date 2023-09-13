@@ -63,8 +63,7 @@
 }
 
 /*Media queries*/ 
-/* Define a breakpoint for small devices*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
   .about_section1 {
     width: 100%; /* Make the container full-width */
     height: auto; /* Allow height to adjust based on content */
@@ -120,7 +119,7 @@
   }
 }
 
-  @media only screen and (min-width: 425px) and (max-width: 599px) {
+  @media only screen and (min-width: 425px) and (max-width: 600px) {
     .rectangle_about_sec1 {
       z-index: 0;
       width: 214px;
@@ -147,8 +146,25 @@
     
   }
 
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 600px) and (max-width: 992px){
     .about_sec1_p1 {
       margin: auto;
+      width: 80%;
+      margin-left: 1em;
+
+    }
+    .rectangle_about_sec1 {
+      top: 49px;
+    height: 184px;
+    width: 300px;
+    border-radius: 0 40px 40px 0;
+    }
+
+    .elop_img_about_sec1 {
+      height: 750px;
+    width: 600px;
+    z-index: -1;
+    top: -175px;
+    left: 70px;
     }
   }

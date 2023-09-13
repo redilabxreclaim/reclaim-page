@@ -86,6 +86,9 @@
   line-height: 149%; /* 44.7px */
   margin-top: 24px;
   margin-left: 136px;
+  text-align: center;
+    width: 624px;
+    margin: 0;
 }
 .img_about_reditxt2 {
   opacity: 0.8;
@@ -214,21 +217,24 @@
 
   .about_sec4_redi_container {
     flex-direction: column;
+    gap: 0;
   }
 
   .about_section4 {
-    height: 1650px;
+    max-height: 1650px;
     top: 150px;
+    height: auto;
+    margin-bottom: 2em;
   }
+
+  .about_sec4_logos {
+    margin-left: 8em;
+  }
+
   
 }
 
-@media only screen and (min-width: 768px){
-  .about_section4 {
-    height: 1000px;
-  }
-  
-}
+
 
 /*Extra small devices*/
 @media only screen and (max-width: 395px) {
@@ -288,10 +294,22 @@
   .about_section4 {
     height: fit-content
   }
+
+  .about4_rediteam_container {
+    margin-bottom: 2em;
+  }
 }
 
 @media only screen and (min-width: 600px) {
   .about4_rediteam_container {
     margin-top: 2em;
   }
+
+  .img_about_rediimg {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  
 }
