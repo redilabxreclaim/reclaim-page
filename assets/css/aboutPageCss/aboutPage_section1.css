@@ -168,3 +168,24 @@
     left: 70px;
     }
   }
+
+  @media only screen and (min-width: 768px) and (max-width: 800px) {
+    .rectangle_about_sec1 {
+      width: 350px;
+    }
+
+    .elop_img_about_sec1 {
+      left: 140px;
+      height: 600px;
+    width: 550px;
+    top: -164px;
+    }
+
+    .about_sec1_title {
+      left: 20%;
+    }
+
+    .about_section1 {
+      height: 660px;
+    }
+  }

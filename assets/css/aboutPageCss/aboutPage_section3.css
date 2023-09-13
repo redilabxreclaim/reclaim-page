@@ -178,3 +178,30 @@
     top: 75%;
   }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+  .about_section3 {
+    width: 100%;
+  }
+  .about_section3_title {
+    left: 20%;
+  }
+
+  .about_section3_text {
+    left: 50px;
+    font-size: 24px;
+    justify-content: flex-start;
+  }
+
+  .about_section3_list {
+    margin-top: 50px;
+  }
+
+  .whoweare_img_about_sec3_container {
+    top: 380px
+  }
+
+  .img_about_sec32 {
+    z-index: -1;
+  }
+}

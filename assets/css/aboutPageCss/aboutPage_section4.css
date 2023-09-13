@@ -310,6 +310,30 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
-  
+@media only screen and (min-width: 768px) and (max-width: 992px){
+  .about_section4 {
+    width: 100%;
+    height: 1300px;
+  }
+
+  .about_sec4_logos {
+    flex-wrap: wrap;
+    margin-left: 10%;
+  }
+
+  .about_section4_container {
+    margin: 1em;
+  }
+
+  .about_sec4_redi_container {
+    flex-direction: column;
+  }
+
+  .img_about_reditxt {
+    font-size: 24px;
+  }
+
+  .about4_rediteam_container {
+    margin-top: 0;
+  }
 }
