@@ -290,3 +290,9 @@
     height: fit-content
   }
 }
+
+@media only screen and (min-width: 600px) {
+  .about4_rediteam_container {
+    margin-top: 2em;
+  }
+}

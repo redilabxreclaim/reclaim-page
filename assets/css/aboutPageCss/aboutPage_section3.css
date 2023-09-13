@@ -160,3 +160,21 @@
     top: 85%;
   }
 }
+
+@media only screen and (min-width: 600px) {
+  .about_section3_text {
+    left: 0;
+  }
+
+  .about_sec4_logos {
+    margin-left: 4em;
+  }
+
+  .img_about_reditxt {
+    margin: auto!important;
+  }
+
+  .whoweare_img_about_sec3_container {
+    top: 75%;
+  }
+}
