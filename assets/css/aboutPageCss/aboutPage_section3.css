@@ -161,7 +161,7 @@
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 768px) {
   .about_section3_text {
     left: 0;
   }
