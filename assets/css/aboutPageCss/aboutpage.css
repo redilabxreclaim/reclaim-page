@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     margin-bottom: 144px;
+    width: 100%;
 }
 
 /*Media queries*/
@@ -28,8 +29,8 @@
     
   }
 
-  @media screen and (min-width: 1020px) {
+  @media screen and (min-width: 600px) and (max-width: 992px) {
     .aboutpage_snippestcontaiener {
-        width: 1440px;
+        width: 100%;
         align-items: center;        
     }  }

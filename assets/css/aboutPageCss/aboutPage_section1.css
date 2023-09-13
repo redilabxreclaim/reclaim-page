@@ -64,7 +64,7 @@
 
 /*Media queries*/
 /* Define a breakpoint for small devices */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .about_section1 {
     width: 100%; /* Make the container full-width */
     height: auto; /* Allow height to adjust based on content */
@@ -76,7 +76,6 @@
     height: auto; /* Allow height to adjust based on content */
     position: relative; /* Reset positioning */
     left: auto; /* Reset left position */
-    rotate: -10deg;
     height: 653px;
     width: 603px;
   }
@@ -120,3 +119,30 @@
     margin: 0;
   }
 }
+
+  @media only screen and (min-width: 425px) and (max-width: 599px) {
+    .rectangle_about_sec1 {
+      z-index: 0;
+      width: 214px;
+      height: 205px;
+      border-radius: 0 40px 40px 0;
+    }
+
+    .elop_img_about_sec1 {
+      left: 0px;
+      top: -200px;
+      width: 100%;
+      height: auto;
+      z-index: -1;
+    }
+
+    .about_sec1_title {
+      left: 5%;
+    }
+
+    .about_sec1_p1 {
+      top: 250px;
+      margin: 0.5rem;
+    }
+    
+  } 

@@ -92,6 +92,8 @@
 @media only screen and (max-width: 768px) {
   .about_section3 {
     width: 100%;
+    left: 0;
+    text-align: center;
   }
 
   .about_section3_title {
@@ -138,5 +140,23 @@
 
   .about_section3_text {
     left: 0;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 599px) {
+  .about_section3 {
+    margin-top: 0;
+  }
+
+  .about_section3_title {
+    left: 30px;
+  }
+
+  .about_section3_text {
+    left: 0;
+  }
+
+  .whoweare_img_about_sec3_container {
+    top: 85%;
   }
 }

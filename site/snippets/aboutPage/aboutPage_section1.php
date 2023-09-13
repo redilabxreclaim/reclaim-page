@@ -3,13 +3,14 @@
 
 <section class="about_section1" id="about-section-one">
 
-
+    <div class="rectangle_about_sec1">
+    </div>
+    
     <?php if($image = $page->image('EllipseAboutSection1.png')): ?>
     <img class="elop_img_about_sec1" src="<?= $image->url() ?>" alt="">
     <?php endif ?>
 
-    <div class="rectangle_about_sec1">
-    </div>
+    
 
 
 

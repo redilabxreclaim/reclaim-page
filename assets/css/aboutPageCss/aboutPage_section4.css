@@ -185,6 +185,7 @@
     flex-wrap: wrap; /* Allow items to wrap to the next row */
     justify-content: flex-start; /* Start items from the left */
     align-items: center; /* Center items vertically */
+    gap: 40px;
   }
 
   .img_about_sec41,
@@ -215,12 +216,19 @@
   .about_sec4_redi_container {
     flex-direction: column;
   }
+
+  .about_section4 {
+    height: 1650px;
+    top: 100px;
+  }
+  
 }
 
 @media only screen and (min-width: 768px){
   .about_section4 {
     height: 1000px;
   }
+  
 }
 
 /*Extra small devices*/
@@ -249,5 +257,36 @@
 
   .about_se4_links_container {
     gap: 45px;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 599px) {
+  .about_sec4_logos {
+    row-gap: 20px;
+    column-gap: 80px;
+    margin-left: 4em;
+    }
+
+  .img_about_reditxt {
+    width: 100%;
+    margin: 0;
+    text-align: justify;
+    height: fit-content;
+  }
+
+  .about_se4_links_container {
+    gap: 95px;
+  }
+
+  .about_section4 {
+    margin-top: 20%;
+  }
+
+  .redilogo_text {
+    width: 95%;
+  }
+
+  .about_section4 {
+    height: fit-content
   }
 }

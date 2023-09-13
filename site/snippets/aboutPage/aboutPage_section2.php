@@ -3,7 +3,7 @@
 
 
 <section class="about_section2" id="how-we-are">
-
+    
     <h3 class="about_section2_title">
 
         <?= $page->section2_title() ?>
