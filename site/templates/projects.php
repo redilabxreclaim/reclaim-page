@@ -224,7 +224,7 @@ snippet('projectsPage/oldProjects' ,  [
 'txt_color' => '#EBB327', //text
 'reclaim_color' =>  '#F1E1B9', // 40%
 'colorbtn' =>  '#E3B74A', //buttom
-'telegramLink' =>  '' ,
+'telegramLink' =>  'https://t.me/reclaimecofeministalliance' ,
 
 'titleShift' => '-71px'
 ]); ?>
