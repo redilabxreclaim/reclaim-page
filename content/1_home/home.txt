@@ -2,11 +2,11 @@ Title: HI, WE ARE
 
 ----
 
-Text: We are a Berlin-based ecofeminist organisation adopting an intersectional approach to fight for gender equality and climate protection. We develop diverse projects to reclaim life, power and freedom.
+Title2: RECLAIM
 
 ----
 
-Titleappend: 
+Text: We are a Berlin-based ecofeminist organisation adopting an intersectional approach to fight for gender equality and climate protection. We develop diverse projects to reclaim life, power and freedom.
 
 ----
 
@@ -59,10 +59,6 @@ Section5-text4: WRITE TO US
 ----
 
 Section5-text5: Contact us by email: contact@reclaim-ecofeministalliance.org
-
-----
-
-Title2: RECLAIM
 
 ----
 

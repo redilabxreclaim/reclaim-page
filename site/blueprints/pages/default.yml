@@ -6,16 +6,15 @@ columns:
     sections:
       fields:
         type: fields
-        fields:
-          text:
-            type: text
-            size: huge
+        fields:          
           title:
             label: Title
             type: text
-          titleAppend:
+          Title2:
             label: Title Append
             type: text
+          text:
+            type: textarea
           
           
           # section 2

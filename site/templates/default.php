@@ -29,7 +29,7 @@
         <nav class='menu'>
             <ul class='menu-links'>
                 <?php foreach ($site->children()->listed() as $item):
-                if ($item->title()->value() == 'CONTACT') {
+                if ($item->title()->value() == 'CONTACT' || $item->title()->value() == 'HI, WE ARE') {
                     continue;
                 }
                     ?>
