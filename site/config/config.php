@@ -4,7 +4,7 @@ return [
     'panel' =>[
       'install' => true,
     'content' => [
-      'locking' => false
+      'locking' => false,
     ]
     ]
 ];
