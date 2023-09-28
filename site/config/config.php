@@ -2,6 +2,9 @@
 return [
     'debug' => false,
     'panel' =>[
-      'install' => true
+      'install' => true,
+    'content' => [
+      'locking' => false
+    ]
     ]
 ];
