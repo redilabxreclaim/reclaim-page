@@ -31,7 +31,7 @@
 
                 <?php 
                 
-                 if ($item->title()->value() == 'CONTACT') {
+                 if ($item->title()->value() == 'CONTACT' || $item->title()->value() == 'HI, WE ARE') {
                     continue;
                 }
        
