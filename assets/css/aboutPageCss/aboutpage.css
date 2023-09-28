@@ -2,6 +2,35 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center ;
     margin-bottom: 144px;
+    width: 100%;
 }
+
+/*Media queries*/
+@media only screen and (max-width: 480px) {
+
+    .aboutpage_snippestcontaiener {
+        width: 100%;
+        align-items: stretch;
+        
+    }
+
+    .about_sec1_title {
+        width: 410px;
+        height: 96px;
+        font-size: 80px;
+    }
+
+    .about_sec1_p1 {
+        font-size: 24px;
+        width: 418px;
+    }
+
+    
+  }
+
+  @media screen and (min-width: 600px) and (max-width: 992px) {
+    .aboutpage_snippestcontaiener {
+        width: 100%;
+        align-items: center;        
+    }  }

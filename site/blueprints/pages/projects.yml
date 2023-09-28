@@ -1,0 +1,104 @@
+title: PROJECTS
+
+columns:
+  main:
+    width: 2/3
+    sections:
+      fields:
+        type: fields
+        fields:
+          
+          
+            # section 1
+            Projects_buttom:
+              label: Button
+              type: text
+            Project1_title:
+              label: Project title
+              type: textarea
+                # section 2
+            Project1_headline:
+              label: Project1 headline
+              type: text
+      
+              
+            Project1_description:
+              label: Project description
+              type: textarea
+          
+            Project2_title:
+              label: Project 2 title
+              type: textarea
+          
+        
+          
+          Project2_headline:
+              label: Project 2 headline
+              type: textarea
+          
+          Project2_description:
+              label: Project 2 description
+              type: textarea
+
+          Project3_title:
+              label: Project 3 title
+              type: textarea
+
+
+        
+          Project3_headline:
+            label: Project 3 headline
+            type: text
+      
+            
+          Project3_description:
+            label: Project 3 description
+            type: textarea
+        
+          Project4_title:
+            label: Project 4 title
+            type: textarea
+        
+        
+        
+          Project4_headline:
+            label: Project 4 headline
+            type: textarea
+        
+          Project4_description:
+            label: Project 4 description
+            type: textarea
+
+          Project5_title:
+            label: Project 5 title
+            type: textarea
+
+          Project5_headline:
+            label: Project 5 headline
+            type: text
+
+          Project5_description:
+            label: Project 5 description
+            type: textarea
+        
+          Project6_title:
+            label: Project 6 title
+            type: textarea
+
+          Project6_headline:
+            label: Project 6 headline
+            type: text
+
+          Project6_description:
+            label: Project 6 description
+            type: textarea
+            
+          
+  sidebar:
+    width: 1/3
+    sections:
+      pages:
+        type: pages
+        template: projects
+      files:
+        type: files

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $site->title() ?></title>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
-    <?= css(['../assets/css/index.css','../assets/css/projectsPage/projects.css']) ?>
+    <?= css(['../assets/css/index.css','../assets/css/projectsPage/projects.css' , "../assets/css/navReasponsive.css"]) ?>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
@@ -20,10 +20,20 @@
                 <img src="<?= $page->image('pagesLogo.jpg')->url() ?>" alt="Logo" class="logo-image">
             </a>
         </div>
+
+
         <nav class='menu'>
             <ul class='menu-links'>
                 <?php foreach ($site->children()->listed() as $item): ?>
+
+
+
+
                 <?php 
+                
+                 if ($item->title()->value() == 'CONTACT' || $item->title()->value() == 'HI, WE ARE') {
+                    continue;
+                }
        
         $currentURL = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
         $isActive = ($currentURL === 'http://localhost:8888/projects' && $item->url() == $currentURL);
@@ -34,23 +44,28 @@
                 </li>
                 <?php endforeach ?>
             </ul>
+
+
+
+
         </nav>
+
     </header>
     <?= $page->text() ?>
-    <!-- section 1 starts here-->
-    <h1 class='projects-section1-h1'>OUR PROJECTS</h1>
-    <p class='projects-section1-p'>Through a range of diverse projects, we are dedicated to promoting environmental
-        sustainability, social justice, and the empowerment of all beings. We invite you to explore our activities and
-        find the ones that resonate with you.</p>
-    <hr style=" border-top: 3px #4C6B5F solid;width:1300px">
-    <!-- section 1 finishes here-->
-    <section class="old_rojects">
 
-        <!-- RECLAIM THE SOIL project -->
+    <?php snippet("projectsPage/project_section1") ?>
 
-        <div>
 
-            <?php 
+    <!-- <section class="old_rojects"> -->
+
+
+
+
+    <!-- RECLAIM THE SOIL project -->
+
+    <div id="reclaim-the-soil">
+
+        <?php 
     $title = $page->Project1_title()->value(); 
     $headLine = $page->Project1_headline()->value(); 
     $description = $page->Project1_description()->value(); 
@@ -69,13 +84,13 @@
         'telegramLink' =>  'https://t.me/+_rt2soX25kE2NWFk' 
     ]); ?>
 
-        </div>
+    </div>
 
 
-        <!-- RECLAIM LITERATURE project -->
-        <div>
+    <!-- RECLAIM LITERATURE project -->
+    <div id="reclaim-literature">
 
-            <?php 
+        <?php 
     $title = $page->Project2_title()->value(); 
     $headLine = $page->Project2_headline()->value(); 
     $description = $page->Project2_description()->value(); 
@@ -96,16 +111,16 @@
         'titleShift' => '-72px'
         ]); ?>
 
-        </div>
+    </div>
 
 
 
-        <!-- RECLAIM POLITICS project -->
+    <!-- RECLAIM POLITICS project -->
 
 
-        <div>
+    <div id="reclaim-politics">
 
-            <?php 
+        <?php 
 $title = $page->Project3_title()->value(); 
 $headLine = $page->Project3_headline()->value(); 
 $description = $page->Project3_description()->value(); 
@@ -126,15 +141,15 @@ snippet('projectsPage/oldProjects' ,  [
 'titleShift' => '-72px'
 ]); ?>
 
-        </div>
+    </div>
 
 
-        <!-- RECLAIM WORDS project -->
+    <!-- RECLAIM WORDS project -->
 
 
-        <div>
+    <div id="reclaim-words">
 
-            <?php 
+        <?php 
 $title = $page->Project4_title()->value(); 
 $headLine = $page->Project4_headline()->value(); 
 $description = $page->Project4_description()->value(); 
@@ -155,16 +170,16 @@ snippet('projectsPage/oldProjects' ,  [
 'titleShift' => '-70px'
 ]); ?>
 
-        </div>
+    </div>
 
 
 
-        <!-- RECLAIM THE STREETS project -->
+    <!-- RECLAIM THE STREETS project -->
 
 
-        <div>
+    <div id="reclaim-the-streets">
 
-            <?php 
+        <?php 
 $title = $page->Project5_title()->value(); 
 $headLine = $page->Project5_headline()->value(); 
 $description = $page->Project5_description()->value(); 
@@ -185,15 +200,15 @@ snippet('projectsPage/oldProjects' ,  [
 'titleShift' => '-80px'
 ]); ?>
 
-        </div>
+    </div>
 
 
 
-        <!-- RECLAIM IT ALL project -->
+    <!-- RECLAIM IT ALL project -->
 
-        <div>
+    <div id="reclaim-it-all">
 
-            <?php 
+        <?php 
 $title = $page->Project6_title()->value(); 
 $headLine = $page->Project6_headline()->value(); 
 $description = $page->Project6_description()->value(); 
@@ -209,16 +224,19 @@ snippet('projectsPage/oldProjects' ,  [
 'txt_color' => '#EBB327', //text
 'reclaim_color' =>  '#F1E1B9', // 40%
 'colorbtn' =>  '#E3B74A', //buttom
-'telegramLink' =>  '' ,
+'telegramLink' =>  'https://t.me/reclaimecofeministalliance' ,
 
 'titleShift' => '-71px'
 ]); ?>
 
-        </div>
+    </div>
 
-    </section>
+    <!-- </section> -->
 
     <?php snippet('footer' ) ?>
+
+    <?= js('../assets/js/index.js') ?>
+
 </body>
 
 </html>

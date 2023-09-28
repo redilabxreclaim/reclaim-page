@@ -7,7 +7,7 @@
     <div class="about_section4_container">
 
         <div class="about_sec4_title">
-            <p>THEY HELP US CREATE...</p>
+            <h3 class="about_sec4_title">THEY HELP US CREATE...</h3>
         </div>
         <div class="about_sec4_logos">
             <?php if($image = $page->image('Copy of elephantes_logo.jpg')): ?>
@@ -34,12 +34,12 @@
                 <img class="img_about_rediimg" src="<?= $image->url() ?>" alt="">
                 <?php endif ?>
 
-                <p class="img_about_reditxt">This website was developed in partnership with
-                    <a target="_blank" href="https://www.redi-school.org/" class="img_about_reditxt2">ReDi School of
+                <p class="img_about_reditxt">This website has been developed as part of the <b>ReDI Labs</b> educational program at 
+                    <a target="_blank" href="https://www.redi-school.org/" class="img_about_reditxt2"><b>ReDi School of
                         Digital
-                        Integration</a> , a German
-                    non-profit
-                    tech school providing access to free digital education to Newcomers and Locals. 
+                        Integration</b></a>. ReDI School is a non-profit tech school with the mission to accelerate the social
+                        and professional integration of forced migrants and other underserved communities of locals and
+                        newcomers through free digital education and career support. 
 
                 </p>
             </div>

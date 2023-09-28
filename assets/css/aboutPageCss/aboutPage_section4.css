@@ -10,7 +10,7 @@
 
 .about_section4 {
   width: 1440px;
-  height: 836px;
+  height: 915px;
   position: relative;
   /* border: 1px red solid; */
   margin-top: 87px;
@@ -34,7 +34,7 @@
 .about_sec4_logos {
   display: flex;
   align-items: center;
-  gap: 84px;
+  gap: 80px;
   /* justify-content: space-between; */
   margin-top: 24px;
   width: fit-content;
@@ -86,6 +86,9 @@
   line-height: 149%; /* 44.7px */
   margin-top: 24px;
   margin-left: 136px;
+  text-align: center;
+    width: 624px;
+    margin: 0;
 }
 .img_about_reditxt2 {
   opacity: 0.8;
@@ -151,4 +154,186 @@
   line-height: normal;
   width: fit-content;
   margin: 12px 0;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+  .about_section4 {
+    width: 100%;
+    height: 1600px;
+  }
+
+  .about_sec4_title {
+    font-size: 80px;
+    line-height: 96px;
+    
+  }
+
+  .about_section4_container {
+    margin: 0;
+    text-align: center;
+  }
+
+  .about_section3_text {
+    width: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .about_sec4_logos {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    justify-content: flex-start; /* Start items from the left */
+    align-items: center; /* Center items vertically */
+    gap: 40px;
+  }
+
+  .img_about_sec41,
+  .img_about_sec42,
+  .img_about_sec43,
+  .img_about_sec44 {
+    width: calc(50% - 10px); /* Each image takes 50% of the container width with 10px spacing in between */
+    max-width: 200px; /* Optional: Limit the maximum width of each image */
+    height: auto;
+    margin-bottom: 10px; /* Add margin to space the rows */
+  }
+  
+  /* Clear margin for the last image in each row */
+  .img_about_sec42,
+  .img_about_sec44 {
+    margin-right: 0;
+  }
+
+  .img_about_rediimg, .redilogo_text  {
+    width: 100%;
+  }
+
+  .img_about_reditxt {
+    margin: 1em;
+    font-size: 24px;
+  }
+
+  .about_sec4_redi_container {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .about_section4 {
+    max-height: 1650px;
+    top: 150px;
+    height: auto;
+    margin-bottom: 2em;
+  }
+
+  .about_sec4_logos {
+    margin-left: 8em;
+  }
+
+  
+}
+
+
+
+/*Extra small devices*/
+@media only screen and (max-width: 395px) {
+  .about_section4 {
+    margin: 0;
+  }
+
+  .about_sec4_logos {
+    gap: 20px;
+  }
+
+  .img_about_reditxt {
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .about_section4_container {
+    text-align: left;
+  }
+
+  .about_section4 {
+    height: 1800px;
+  }
+
+  .about_se4_links_container {
+    gap: 45px;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 599px) {
+  .about_sec4_logos {
+    row-gap: 20px;
+    column-gap: 80px;
+    margin-left: 4em;
+    }
+
+  .img_about_reditxt {
+    width: 100%;
+    margin: 0;
+    text-align: justify;
+    height: fit-content;
+  }
+
+  .about_se4_links_container {
+    gap: 95px;
+  }
+
+  .about_section4 {
+    margin-top: 20%;
+  }
+
+  .redilogo_text {
+    width: 95%;
+  }
+
+  .about_section4 {
+    height: fit-content
+  }
+
+  .about4_rediteam_container {
+    margin-bottom: 2em;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .about4_rediteam_container {
+    margin-top: 2em;
+  }
+
+  .img_about_rediimg {
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+  .about_section4 {
+    width: 100%;
+    height: 1300px;
+  }
+
+  .about_sec4_logos {
+    flex-wrap: wrap;
+    margin-left: 10%;
+  }
+
+  .about_section4_container {
+    margin: 1em;
+  }
+
+  .about_sec4_redi_container {
+    flex-direction: column;
+  }
+
+  .img_about_reditxt {
+    font-size: 24px;
+  }
+
+  .about4_rediteam_container {
+    margin-top: 0;
+  }
 }

@@ -61,3 +61,131 @@
   left: 316px;
   color: var(--text_color_1);
 }
+
+/*Media queries*/ 
+@media only screen and (max-width: 992px) {
+  .about_section1 {
+    width: 100%; /* Make the container full-width */
+    height: auto; /* Allow height to adjust based on content */
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+
+  .elop_img_about_sec1 {
+    width: 100%; /* Make the image full-width */
+    height: auto; /* Allow height to adjust based on content */
+    position: relative; /* Reset positioning */
+    left: auto; /* Reset left position */
+    height: 653px;
+    width: 603px;
+  }
+
+  .rectangle_about_sec1 {
+    width: 100%; /* Make the rectangle full-width */
+    height: auto; /* Allow height to adjust based on content */
+    position: relative; /* Reset positioning */
+    top: auto; /* Reset top position */
+    border-radius: 0; /* Remove border-radius */
+  }
+
+  .about_sec1_title {
+    font-size: 80px;
+    top: 100px;
+    height: 96px;
+    width: 410px;
+    left: 10%;
+  }
+
+  .about_sec1_p1 {
+    width: 100%; /* Make the paragraph full-width */
+    font-size: 24px; /* Adjust font size for smaller screens */
+    left: auto; /* Reset left position */
+    margin: 1rem;
+  }
+}
+
+/*Extra small devices*/
+@media only screen and (max-width: 395px) {
+  .about_section1 {
+    text-align: center;
+  }
+
+  .about_sec1_title {
+    width: 100%;
+    left: 0%;
+  }
+
+  .about_sec1_p1 {
+    margin: 0;
+  }
+}
+
+  @media only screen and (min-width: 425px) and (max-width: 600px) {
+    .rectangle_about_sec1 {
+      z-index: 0;
+      width: 214px;
+      height: 205px;
+      border-radius: 0 40px 40px 0;
+    }
+
+    .elop_img_about_sec1 {
+      left: 0px;
+      top: -200px;
+      width: 100%;
+      height: auto;
+      z-index: -1;
+    }
+
+    .about_sec1_title {
+      left: 5%;
+    }
+
+    .about_sec1_p1 {
+      top: 250px;
+      margin: 0.5rem;
+    }
+    
+  }
+
+  @media only screen and (min-width: 600px) and (max-width: 992px){
+    .about_sec1_p1 {
+      margin: auto;
+      width: 80%;
+      margin-left: 1em;
+
+    }
+    .rectangle_about_sec1 {
+      top: 49px;
+    height: 184px;
+    width: 300px;
+    border-radius: 0 40px 40px 0;
+    }
+
+    .elop_img_about_sec1 {
+      height: 750px;
+    width: 600px;
+    z-index: -1;
+    top: -175px;
+    left: 70px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 800px) {
+    .rectangle_about_sec1 {
+      width: 350px;
+    }
+
+    .elop_img_about_sec1 {
+      left: 140px;
+      height: 600px;
+    width: 550px;
+    top: -164px;
+    }
+
+    .about_sec1_title {
+      left: 20%;
+    }
+
+    .about_section1 {
+      height: 660px;
+    }
+  }

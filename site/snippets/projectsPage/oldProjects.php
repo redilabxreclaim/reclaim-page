@@ -20,43 +20,46 @@ $titleShift = $titleShift ?? '-80px'; //buttom
 $telegramLink = $telegramLink ?? ''; 
 
 ?>
+<section class="porjects_container">
 
-<div class="ProjectPage-oldProjects">
+    <div class="ProjectPage-oldProjects">
 
-    <div class="oldprojects_title">
-        <p class="oldprojects_title_part1" style="color : <?= $reclaim_color?>;">RECLAIM
-        </p>
-        <p class="oldprojects_title_part2" style="color : <?= $txt_color?>; left:  <?= $titleShift?>"><?= $title ?></p>
-    </div>
-
-    <div class="oldprojects_container" style="flex-direction: <?= $order === 'normal' ? 'row' : 'row-reverse' ?>;">
-
-        <div class="oldprojects_text_btn">
-
-
-            <div class="oldprojects_headline">
-                <p style="color : <?= $txt_color?>;"><?= $headline ?></p>
-
-            </div>
-
-            <div class=" oldprojects_dis">
-                <p><?= $description ?></p>
-
-            </div>
-
-            <a class="telegram_a" href="<?= $telegramLink?>" target="_blank">
-
-                <button style="border-color : <?= $colorbtn?>; " class="oldprojects_btn" data-hover-text="JOIN OUR"
-                    data-hover-text2="JOIN THE GROUP" onmouseover="this.style.backgroundColor='<?= $colorbtn?>';"
-                    onmouseout="this.style.backgroundColor='white';">
-                    JOIN OUR
-                </button>
-            </a>
+        <div class="oldprojects_title">
+            <p class="oldprojects_title_part1" style="color : <?= $reclaim_color?>;">RECLAIM
+            </p>
+            <p class="oldprojects_title_part2" style="color : <?= $txt_color?>; left:  <?= $titleShift?>"><?= $title ?>
+            </p>
         </div>
 
+        <div class="oldprojects_container" style="flex-direction: <?= $order === 'normal' ? 'row' : 'row-reverse' ?>; ">
 
-        <div class=" oldprojects_img">
-            <img src="<?= $img ?>" alt="">
+            <div class="oldprojects_text_btn">
+
+
+                <div class="oldprojects_headline">
+                    <p style="color : <?= $txt_color?>;"><?= $headline ?></p>
+
+                </div>
+
+                <div class=" oldprojects_dis">
+                    <p><?= $description ?></p>
+
+                </div>
+
+                <a class="telegram_a" href="<?= $telegramLink?>" target="_blank">
+
+                    <button style="border-color : <?= $colorbtn?>; " class="oldprojects_btn" data-hover-text="JOIN OUR"
+                        data-hover-text2="JOIN THE GROUP" onmouseover="this.style.backgroundColor='<?= $colorbtn?>';"
+                        onmouseout="this.style.backgroundColor='white';">
+                        JOIN OUR
+                    </button>
+                </a>
+            </div>
+
+
+            <div class=" oldprojects_img">
+                <img src="<?= $img ?>" alt="">
+            </div>
         </div>
     </div>
-</div>
+</section>

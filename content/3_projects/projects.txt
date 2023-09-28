@@ -1,0 +1,115 @@
+Title: PROJECTS
+
+----
+
+Projects_buttom : JOIN THE GROUP
+
+----
+
+
+Project1_title : THE SOIL
+
+----
+
+
+Project1_headline : WITCHES GARDEN
+
+----
+
+
+Project1_description : In our little witches garden, part of the Rote Beete Gemeinschaftsgarten in Wedding, we see the soil as a fertile ground for an activist and political approach. We grow vegetables and medicinal plants, as a way to not only reclaim our connection to nature but also foster exchanges and dialogues with local communities.
+
+----
+
+
+
+
+Project2_title :  LITERATURE
+
+----
+
+
+Project2_headline : BOOK CLUB
+
+----
+
+
+Project2_description : Reading has the power to shape our beliefs and vision of the world, influencing our personal lives and activism. We regularly host book club meetings (English & French) centered around ecofeminist literature, such as 'Sister Outsider' by Audre Lorde or 'Oneness vs. the 1%' by Vandana Shiva. Join us to expand your literary (and ecofeminist) horizons!
+
+----
+
+
+
+
+Project3_title : POLITICS
+
+----
+
+
+Project3_headline : DEBATES & TALKING CIRCLES
+
+----
+
+
+Project3_description : Speech is a mode of action in its own right, and talking circles can play a major role in feminist and anti-racist movements. These exchanges offer a safe space and serve as a means of breaking taboos, challenging societal norms, raising awareness and political engagement through personal experiences.
+
+
+----
+
+
+
+
+Project4_title : WORDS
+
+----
+
+
+Project4_headline : CREATIVE WRITING
+
+----
+
+
+Project4_description : Unleash your creativity and give voice to your ecofeminist ideals through the power of the written word. Join our writing workshops in Berlin and express your thoughts, stories, and visions through poetry, essays, and prose, igniting change through the beauty of language.
+
+
+----
+
+
+
+
+Project5_title : THE STREETS
+
+----
+
+
+Project5_headline : NON-VIOLENT PROTESTS
+
+----
+
+
+Project5_description : We believe in the power of collective action to challenge oppressive systems and demand environmental justice. Join us in peaceful protests and demonstrations as we raise awareness and advocate for deep political changes, and work towards a kinder society.
+
+
+----
+
+
+
+
+Project6_title : IT ALL
+
+----
+
+
+Project6_headline : SEEDING FREEDOM FESTIVAL
+
+
+----
+
+
+Project6_description : In 2022, we gathered our community to celebrate ecofeminism at the first ecofeminist festival in Berlin. It was a vibrant gathering of like-minded individuals, where art, music, workshops, and sustainable practices came together to inspire and ignite transformative change. Seeding Freedom is coming back in 2024... Stay tuned!
+
+
+----
+
+
+Uuid: lSH3mXVzrcDYP1Gy

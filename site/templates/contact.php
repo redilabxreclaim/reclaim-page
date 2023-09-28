@@ -8,11 +8,39 @@
     <title><?= $site->title() ?></title>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
     <?= css('../assets/css/index.css') ?>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+    <style>
+        /* Apply Barlow Condensed font to the entire page */
+        body {
+            font-family: 'Barlow Condensed', sans-serif;
+                    }
+
+        /* Styling for the contact box */
+        .contact-box {
+            background-color: #C29DE8;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 40px 400px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .contact-box a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+                   }
+    </style>
 
 </head>
 
 <body>
+
     <header class='header'>
         <div class='logo-div'>
             <a class='org' href="<?= $site->url() ?>">
@@ -34,9 +62,16 @@
             </ul>
         </nav>
     </header>
+    <div class="contact-box">
+        <p>Feel free to send us an email at the provided address for inquiries and assistance.</p>
+        <p>Contact us by email: <a href="mailto:contact@reclaim-ecofeministalliance.org">contact@reclaim-ecofeministalliance.org</a></p>
+    </div>
     <?= $page->text() ?>
     <?php snippet('footer') ?>
+    
+    <?= js('../assets/js/index.js') ?>
 
 </body>
 
 </html>
+

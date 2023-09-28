@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <?= css(['../assets/css/index.css','../assets/css/aboutPageCss/aboutpage.css']) ?>
+    <?= css(['../assets/css/index.css', "../assets/css/navReasponsive.css"]) ?>
+
 </head>
 
 <body>
@@ -21,8 +23,10 @@
         </div>
         <nav class='menu'>
             <ul class='menu-links'>
-                <?php foreach ($site->children()->listed() as $item): ?>
-                <?php 
+                <?php foreach ($site->children()->listed() as $item): if ($item->title()->value() == 'CONTACT' || $item->title()->value() == 'HI, WE ARE') {
+                    continue;
+                }?>
+                <?php  
        
         $currentURL = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
         $isActive = ($currentURL === 'http://localhost:8888/About' && $item->url() == $currentURL);
@@ -43,10 +47,11 @@
         <?php snippet('aboutPage/aboutPage_section2') ?>
         <?php snippet('aboutPage/aboutPage_section3') ?>
         <?php snippet('aboutPage/aboutPage_section4') ?>
-
     </div>
-
     <?php snippet('footer') ?>
+
+    <?= js('../assets/js/index.js') ?>
+
 </body>
 
 </html>
